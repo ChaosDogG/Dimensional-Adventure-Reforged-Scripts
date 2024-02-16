@@ -135,6 +135,7 @@ ServerEvents.recipes(event => {
     head_4(Item.of('create:chromatic_compound').withChance(0.25), Item.of('kubejs:unprocessed_competitive_core').withChance(0.1), maid1, maid2, 'Qndres')
     head_4(Item.of('explorerscompass:explorerscompass').withChance(0.25), Item.of('naturescompass:naturescompass').withChance(0.25), Item.of('blaze_rod').withChance(0.69), Item.of('kubejs:unprocessed_competitive_core').withChance(0.1), 'Dream' )
     head_4(Item.of('kubejs:unprocessed_creative_core').withChance(0.1), maid1, maid2, Item.of('polar_bear_spawn_egg').withChance(0.25), 'Knarfy')
+    head_4(Item.of('pig_spawn_egg').withChance(0.25), 'redstone', Item.of('kubejs:unprocessed_technical_core').withChance(0.1), 'create:wand_of_symmetry', 'ChosenArchitect')
     head_4(Item.of('quark:dragon_scale').withChance(0.25), Item.of('kubejs:unprocessed_creative_core').withChance(0.1), Item.of('kubejs:unprocessed_competitive_core').withChance(0.1), Item.of('obsidian').withChance(0.05), 'DragonSoda_')
     head_4(Item.of('totem_of_undying').withChance(0.001), 'potato', Item.of('kubejs:unprocessed_competitive_core').withChance(0.1), Item.of('kubejs:unprocessed_angelic_core').withChance(0.01), 'Technoblade')
     head_4(Item.of('trashcans:item_trash_can').withChance(0.25), Item.of('trashcans:liquid_trash_can').withChance(0.25), Item.of('trashcans:energy_trash_can').withChance(0.25), Item.of('trashcans:ultimate_trash_can').withChance(0.01), 'OscarGrouch')

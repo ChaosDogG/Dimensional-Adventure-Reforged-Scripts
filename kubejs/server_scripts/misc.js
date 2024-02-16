@@ -9,6 +9,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.create.pressing('quark:blank_rune', '#forge:stone')
 
+    event.remove({output: 'create:chromatic_compound'})
     event.recipes.create.mixing('create:chromatic_compound', ['create:andesite_alloy', '8x #forge:dyes', 'quark:rainbow_rune'])
 
     event.recipes.create.item_application('create:refined_radiance_casing', ['#logs', 'create:refined_radiance'])
