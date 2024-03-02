@@ -5,7 +5,11 @@ ServerEvents.recipes(event => {
     etable('quark:matrix_enchanter', 'enchanting_table')
     etable('enchanting_table', 'quark:matrix_enchanter')
 
-    event.replaceInput({output: 'enchanting_table'}, 'blue_skies:charoite', 'diamond')
+    event.replaceInput(
+        {output:'enchanting_table'},
+        'blue_skies:charoite',
+        'diamond'
+    )
 
     event.recipes.create.pressing('quark:blank_rune', '#forge:stone')
 
@@ -46,6 +50,32 @@ ServerEvents.recipes(event => {
     event.recipes.powah.energizing(['diamond_block'], 'powah:niotic_crystal_block', 2700000)
     event.recipes.powah.energizing(['botania:blaze_block'], 'powah:blazing_crystal_block', 810000)
     event.recipes.powah.energizing(['emerald_block'], 'powah:spirited_crystal_block', 9000000)
+    event.recipes.powah.energizing(['iron_block', 'gold_block'], '2x powah:energized_steel_block', 90000)
+    event.recipes.powah.energizing(['mekanism:block_uranium'], 'powah:uraninite_block', 270000)
+
+    event.shaped('vm:vending_machine', [
+        'idg',
+        'irg',
+        'ivg'
+    ],{
+        i: 'iron_ingot',
+        d: 'daylight_detector',
+        g: '#forge:glass_panes',
+        r: 'randomium:randomium',
+        v: 'villager_spawn_egg'
+    })
+
+    event.shaped('vm:vending_machine', [
+        'idg',
+        'irg',
+        'icg'
+    ],{
+        i: 'iron_ingot',
+        d: 'daylight_detector',
+        g: '#forge:glass_panes',
+        r: 'randomium:randomium',
+        c: '#forge:coins'
+    })
 
     event.shaped('touhou_little_maid:smart_slab_empty', [
         'ppp',

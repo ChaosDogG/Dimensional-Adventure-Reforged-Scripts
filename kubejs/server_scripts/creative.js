@@ -26,9 +26,9 @@ ServerEvents.recipes(event => {
         'AuA',
         'CCC'
     ],{
-        C: 'cobblestone',
+        C: '#forge:cobblestone/normal',
         U: 'kubejs:unprocessed_creative_core',
-        A: 'mekanism:pellet_antimatter',
+        A: 'allthemodium:unobtaninium_ingot',
         u: 'mekanism:ultimate_bin'
     })
     event.shaped('mekanism:creative_fluid_tank', [
@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
         'IUI',
         'AIA'
     ],{
-        A: 'mekanism:pellet_antimatter',
+        A: 'allthemodium:unobtaninium_ingot',
         I: 'iron_ingot',
         U: 'mekanism:ultimate_fluid_tank'
     })
@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
     ],{
         C: 'kubejs:unprocessed_creative_core',
         E: 'mekanism:energy_tablet',
-        A: 'mekanism:pellet_antimatter',
+        A: 'allthemodium:unobtaninium_ingot',
         U: Item.of('mekanism:ultimate_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"256000000"}]}}')
     })
     event.shaped('mekanism:creative_chemical_tank', [
@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
         'CAC'
     ],{
         C: 'kubejs:unprocessed_creative_core',
-        A: 'mekanism:pellet_antimatter',
+        A: 'allthemodium:unobtaninium_ingot',
         U: 'mekanism:ultimate_chemical_tank'
     })
     event.shaped('botania:creative_pool', [
@@ -119,6 +119,32 @@ ServerEvents.recipes(event => {
     Fluid.of('industrialforegoing:ether_gas', 2000),
     'touhou_little_maid:substitute_jizo',
     700)
+
+    event.shaped(Item.of('minecraft:light', '{BlockStateTag:{level:"0"}}'), [
+        ' g ',
+        'gcg',
+        ' i '
+    ],{
+        g: '#forge:glass_panes',
+        c: 'createaddition:copper_wire',
+        i: 'iron_ingot'
+    })
+
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"0"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"1"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"1"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"2"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"2"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"3"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"3"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"4"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"4"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"5"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"5"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"6"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"6"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"7"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"7"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"8"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"8"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"9"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"9"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"10"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"10"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"11"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"11"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"12"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"12"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"13"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"13"}}')], Item.of('minecraft:light', '{BlockStateTag:{level:"14"}}'), 100)
+    event.recipes.powah.energizing([Item.of('minecraft:light', '{BlockStateTag:{level:"14"}}')], 'light', 100)
 
     event.recipes.mekanismCombining('botania:lens_storm', '#botania:lens', 'mekanism:pellet_antimatter')
 

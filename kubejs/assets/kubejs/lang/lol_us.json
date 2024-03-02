@@ -201,12 +201,12 @@
     "item.silentgear.sword.noRod": "",
     "item.sophisticatedstorage.inaccessible_slot": "Unchoosabl Spot",
 
-    "itemGroup.mekanism": "",
-    "itemGroup.projecte": "",
-    "itemGroup.ru_main": "",
-    "itemGroup.touhou_little_maid.chair": "",
-    "itemGroup.touhou_little_maid.garage_kit": "",
-    "itemGroup.touhou_little_maid.main": "",
+    "itemGroup.mekanism": "Mekanizm",
+    "itemGroup.projecte": "TRANSMUTATION",
+    "itemGroup.ru_main": "Reejunz Unexplord",
+    "itemGroup.touhou_little_maid.chair": "Cat Nappin Spot",
+    "itemGroup.touhou_little_maid.garage_kit": "Weird Tiny Persons",
+    "itemGroup.touhou_little_maid.main": "Maidz",
 
     "jei.silentgear.bow.desc": "",
     "jei.silentgear.crossbow.desc": "",

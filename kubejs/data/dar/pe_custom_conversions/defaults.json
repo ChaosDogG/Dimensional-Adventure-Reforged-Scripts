@@ -3,6 +3,7 @@
         "before":{
             "#forge:ores/alexandrite": 2048,
             "#forge:ores/ammolite": 8192,
+            "#forge:ores/anthracite": 128,
             "#forge:ores/apatite": 16,
             "#forge:ores/black_diamond": 8192,
             "#forge:ores/bort": 16,

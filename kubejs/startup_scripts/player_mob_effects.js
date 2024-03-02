@@ -8,7 +8,7 @@ ForgeEvents.onEvent('net.minecraftforge.event.entity.living.LivingEvent$LivingTi
 global.entitytick = event => {
     const { entity } = event
     if (entity.type != 'player_mobs:player_mob') return
-    if (entity.username.displayName == 'billyp673'){
+    if (entity.username.displayName == 'billyp673' || entity.username.displayName == 'lookomni'){
         //if (entity.age % 20 != 0) return
         if (entity.inWaterOrRain) {
             entity.attack('drown', 1)

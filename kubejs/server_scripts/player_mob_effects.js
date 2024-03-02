@@ -55,7 +55,12 @@ EntityEvents.spawned(event => {
 EntityEvents.hurt(event => {
     const entity = event.entity;
     const isPlayerMob = entity.type === 'player_mobs:player_mob';
+    const isDummy = entity.type === 'dummmmmmy:target_dummy';
     const username = entity.username.displayName;
+
+    if (isDummy) {
+        console.log(event.getSource().type);
+    }
 
     if (isPlayerMob) {
         switch (username) {
@@ -64,27 +69,22 @@ EntityEvents.hurt(event => {
                     entity.setRemainingFireTicks(0);
                     event.cancel();
                 }
+                if (event.getSource().type == 'fall') {
+                    event.cancel();
+                }
                 break;
             case 'Natsu___':
             case 'billyp673':
+            case 'lookomni':
                 if (event.getSource().type == 'onFire') {
-                    console.log('owie!');
                     entity.setRemainingFireTicks(0);
                     event.cancel();
                 }
-                break;
-            case 'Natsu___':
-            case 'billyp673':
                 if (event.getSource().type == 'inFire') {
-                    console.log('owie!');
                     entity.setRemainingFireTicks(0);
                     event.cancel();
                 }
-                break;
-            case 'Natsu___':
-            case 'billyp673':
                 if (event.getSource().type == 'lava') {
-                    console.log('owie!');
                     entity.setRemainingFireTicks(0);
                     event.cancel();
                 }
@@ -109,19 +109,20 @@ EntityEvents.hurt(event => {
                 break;
             case 'MrCrayfish':
             case 'FishyBoopkins':
-            case '_Bender':
                 if (event.getSource().type == 'drown') {
                     event.cancel();
                 }
                 break;
             case 'mysticat_':
             case 'Paimon':
-            case 'Luffy':
                 if (event.getSource().type == 'fall') {
                     event.cancel();
                 }
                 break;
             case '_Bender':
+                if (event.getSource().type == 'drown') {
+                    event.cancel();
+                }
                 console.log(entity.getPotionEffects().getActive());
                 break;
             case 'cjosie1':
