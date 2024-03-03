@@ -123,6 +123,8 @@
     "conveyor.upgrade.industrialforegoing.conveyor_insertion_upgrade": "",
     "conveyor.upgrade.industrialforegoing.conveyor_splitting_upgrade": "",
 
+    "dar.failed.needs_silk": "Kitty may needz silky tool for dis blok...",
+
     "death.attack.darkutils.damage_plate_player": "",
 
     "enchantment.deeperdarker.catalysis.desc": "",
@@ -190,7 +192,7 @@
     "item.cyclic.sandstone_sword.guide": "",
     "item.cyclic.tile_transporter_empty.guide": "",
     "item.everycomp.all_woods": "Ol Wuudz",
-    "item.minecraft.tipped_arrow.effect.dolphins_grace": "",
+    "item.minecraft.tipped_arrow.effect.dolphins_grace": "Arrowz uf Dolfinz Graze",
     "item.silentgear.axe.noRod": "",
     "item.silentgear.dagger.noRod": "",
     "item.silentgear.fishing_rod.unstrung": "",

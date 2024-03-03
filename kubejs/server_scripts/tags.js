@@ -33,6 +33,8 @@ ServerEvents.tags('item', event => {
     event.add('randomium:blacklist', /appbot/)
     event.add('randomium:blacklist', /appmek/)
     event.add('randomium:blacklist', /megacells/)
+    event.remove('randomium:blacklist', '#forge:ores')
+    event.remove('randomium:blacklist', '#forge:raw_materials')
 
     event.add('forge:storage_blocks/silver', 'silentgems:silver_block')
     event.add('forge:storage_blocks/flint', 'supplementaries:flint_block')
