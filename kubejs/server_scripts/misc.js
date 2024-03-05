@@ -1,4 +1,9 @@
 ServerEvents.recipes(event => {
+
+    event.recipes.create.deploying('lightmanscurrency:coin_chocolate_copper', ['create:bar_of_chocolate', 'create:copper_sheet'])
+    event.recipes.create.deploying('lightmanscurrency:coin_chocolate_iron', ['create:bar_of_chocolate', 'create:iron_sheet'])
+    event.recipes.create.deploying('lightmanscurrency:coin_chocolate_gold', ['create:bar_of_chocolate', 'create:golden_sheet'])
+
     let etable = (table1, table2) => {
         event.shapeless(table2, [table1])
     }
@@ -11,6 +16,28 @@ ServerEvents.recipes(event => {
         'diamond'
     )
 
+    event.replaceInput(
+        {output: /botanypotstiers:creative.*/},
+        'netherite_block',
+        'allthemodium:unobtainium_block'
+    )
+
+    event.recipes.create.emptying([Fluid.of('milk', 1000), 'aether:skyroot_bucket'], 'aether:skyroot_milk_bucket')
+    event.recipes.create.emptying([Fluid.of('milk', 1000), 'blue_skies:ventium_bucket'], 'blue_skies:ventium_milk_bucket')
+    event.recipes.create.emptying([Fluid.of('water', 1000), 'aether:skyroot_bucket'], 'aether:skyroot_water_bucket')
+    event.recipes.create.emptying([Fluid.of('water', 1000), 'blue_skies:ventium_bucket'], 'blue_skies:ventium_water_bucket')
+    event.recipes.create.emptying([Fluid.of('lava', 1000), 'blue_skies:ventium_bucket'], 'blue_skies:ventium_lava_bucket')
+    event.recipes.create.emptying([Fluid.of('deep_aether:poison_fluid', 1000), 'aether:skyroot_bucket'], 'aether:skyroot_poison_bucket')
+    event.recipes.create.emptying([Fluid.of('deep_aether:poison_fluid', 1000), 'bucket'], 'deep_aether:poison_bucket')
+
+    event.recipes.create.filling('aether:skyroot_milk_bucket', [Fluid.of('milk', 1000), 'aether:skyroot_bucket'])
+    event.recipes.create.filling('blue_skies:ventium_milk_bucket', [Fluid.of('milk', 1000), 'blue_skies:ventium_bucket'])
+    event.recipes.create.filling('aether:skyroot_water_bucket', [Fluid.of('water', 1000), 'aether:skyroot_bucket'])
+    event.recipes.create.filling('blue_skies:ventium_water_bucket', [Fluid.of('water', 1000), 'blue_skies:ventium_bucket'])
+    event.recipes.create.filling('blue_skies:ventium_lava_bucket', [Fluid.of('lava', 1000), 'blue_skies:ventium_bucket'])
+    event.recipes.create.filling('aether:skyroot_poison_bucket', [Fluid.of('deep_aether:poison_fluid', 1000), 'aether:skyroot_bucket'])
+    event.recipes.create.filling('deep_aether:poison_bucket', [Fluid.of('deep_aether:poison_fluid', 1000), 'bucket'])
+
     event.recipes.create.crushing(['randomium:any_item', Item.of('randomium:randomium').withChance(0.01), Item.of('cobblestone').withChance(.12)], 'randomium:randomium_ore')
     event.recipes.create.crushing(['randomium:any_item', Item.of('randomium:randomium').withChance(0.01), Item.of('cobbled_deepslate').withChance(.12)], 'randomium:randomium_ore_deepslate')
     event.recipes.create.crushing(['randomium:any_item', Item.of('randomium:randomium').withChance(0.01), Item.of('end_stone').withChance(.12)], 'randomium:randomium_ore_end')
@@ -18,7 +45,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.pressing('quark:blank_rune', '#forge:stone')
 
     event.remove({output: 'create:chromatic_compound'})
-    event.recipes.create.mixing('create:chromatic_compound', ['create:andesite_alloy', '8x #forge:dyes', 'quark:rainbow_rune'])
+    event.recipes.create.mixing('create:chromatic_compound', ['create:andesite_alloy', '7x #forge:dyes', 'quark:rainbow_rune'])
 
     event.recipes.create.item_application('create:refined_radiance_casing', ['#logs', 'create:refined_radiance'])
     event.recipes.create.item_application('create:shadow_steel_casing', ['#logs', 'create:shadow_steel'])
@@ -103,28 +130,21 @@ BlockEvents.broken(event => {
     const itemEnchantments = player.mainHandItem.enchantmentTags.asString
     if (!block.hasTag('forge:ores/randomium')) return
     if (itemEnchantments.includes('silk_touch')) return
+    if (player.isCreative()) return
     player.displayClientMessage(Component.of(Text.translate(`dar.failed.needs_silk`).lightPurple()), true)
     event.cancel()
 })
 
-ItemEvents.rightClicked('randomium:any_item', e => {
-    while (true) {
-        let item = items.itemIds[Math.floor(Math.random() * items.itemIds.length)]
-        let player= e.player
-        let ie = e.item
-        if (!Item.of(item).hasTag('randomium:blacklist')) {
-            if (!player.isFake()){
-                player.give(item)
-                if (!player.isCreative){
-                    ie.shrink(1)
-                }
-            }
-            /*else {
-                console.log("Attempting item insertion")
-                player.setItemSlot(1).Item.of(item)
-                ie.shrink(1)
-            }*/
-            break
+LevelEvents.afterExplosion(event => {
+    event.affectedBlocks.forEach(block => {
+        if (block.id == 'randomium:randomium_ore') {
+            event.removeAffectedBlock(block)
         }
-    }
+        if (block.id == 'randomium:randomium_ore_deepslate') {
+            event.removeAffectedBlock(block)
+        }
+        if (block.id == 'randomium:randomium_ore_end') {
+            event.removeAffectedBlock(block)
+        }
+    })
 })

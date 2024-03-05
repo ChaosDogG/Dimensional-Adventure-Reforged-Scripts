@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
     ],{
         C: '#forge:cobblestone/normal',
         U: 'kubejs:unprocessed_creative_core',
-        A: 'allthemodium:unobtaninium_ingot',
+        A: 'allthemodium:unobtainium_ingot',
         u: 'mekanism:ultimate_bin'
     })
     event.shaped('mekanism:creative_fluid_tank', [
@@ -36,9 +36,12 @@ ServerEvents.recipes(event => {
         'IUI',
         'AIA'
     ],{
-        A: 'allthemodium:unobtaninium_ingot',
+        A: 'allthemodium:unobtainium_ingot',
         I: 'iron_ingot',
         U: 'mekanism:ultimate_fluid_tank'
+    }).modifyResult((grid, result) => {
+        let item = grid.find(Item.of("mekanism:ultimate_fluid_tank"))
+        return result.withNBT(item.nbt)
     })
     event.shaped(Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}],componentConfig:{config0:{side0:4,side1:4,side2:4,side3:4,side4:4,side5:4}}}}'), [
         'CEC',
@@ -47,7 +50,7 @@ ServerEvents.recipes(event => {
     ],{
         C: 'kubejs:unprocessed_creative_core',
         E: 'mekanism:energy_tablet',
-        A: 'allthemodium:unobtaninium_ingot',
+        A: 'allthemodium:unobtainium_ingot',
         U: Item.of('mekanism:ultimate_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"256000000"}]}}')
     })
     event.shaped('mekanism:creative_chemical_tank', [
@@ -56,8 +59,11 @@ ServerEvents.recipes(event => {
         'CAC'
     ],{
         C: 'kubejs:unprocessed_creative_core',
-        A: 'allthemodium:unobtaninium_ingot',
+        A: 'allthemodium:unobtainium_ingot',
         U: 'mekanism:ultimate_chemical_tank'
+    }).modifyResult((grid, result) => {
+        let item = grid.find(Item.of("mekanism:ultimate_chemical_tank"))
+        return result.withNBT(item.nbt)
     })
     event.shaped('botania:creative_pool', [
         ' C ',
@@ -100,7 +106,7 @@ ServerEvents.recipes(event => {
         'mekanism:creative_bin',
         'create:brass_funnel',
         'create:smart_chute',
-        'mekanism:pellet_antimatter',
+        'allthemodium:unobtainium_ingot',
         'kubejs:unprocessed_creative_core'
     ],
     Fluid.of('industrialforegoing:ether_gas', 2000),
