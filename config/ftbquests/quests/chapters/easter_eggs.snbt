@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "easter_eggs"
+	group: "22D6CFE5E7BEFCD2"
+	icon: "player_mobs:player_mob_spawn_egg"
+	id: "4A95D657D61EDA1B"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [{
+		description: ["During the development of the first version of this pack, one of the users, Billy, had some sort of client/server mod mismatch when joining the modded server, yet was still able to join. This resulted in VARIOUS modded blocks not looking like what they should be on his end. One of these was the fact that these Ebony Blinds appeared as Supplementaries Ropes, and thusly to commemorate this little dev mishap, I've made these Ebony Blinds climbable and can be crushed to get ropes!"]
+		id: "060A6B004391D055"
+		invisible: true
+		optional: true
+		subtitle: "Gotta Love Client/Server Mod Mismatches!"
+		tasks: [{
+			id: "2466B91769EEF604"
+			item: "everycomp:cfm/byg/ebony_blinds"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Easter Eggs"
+}

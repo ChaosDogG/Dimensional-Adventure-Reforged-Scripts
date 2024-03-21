@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "5B2E17B7FE5CEFDC"
+	icon: {
+		Count: 1b
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "272665AEA48D6658"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5896E3F4C9A506E3"
+			tasks: [
+				{
+					id: "106B63591D7F2458"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:mystical_flowers"
+						}
+					}
+					title: "Any #botania:mystical_flowers"
+					type: "item"
+				}
+				{
+					id: "1CB58269E0CB93C7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:petals"
+						}
+					}
+					title: "Any #botania:petals"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5896E3F4C9A506E3"]
+			id: "55C878FCB7EDF997"
+			tasks: [{
+				id: "2C478E437E7BA233"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["55C878FCB7EDF997"]
+			id: "3013A7B48CDCF9FA"
+			tasks: [{
+				id: "7D4872C4CBD84DFA"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Botania"
+}

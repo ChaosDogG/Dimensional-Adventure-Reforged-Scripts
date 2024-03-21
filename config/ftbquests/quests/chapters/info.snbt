@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "info"
+	group: "22D6CFE5E7BEFCD2"
+	icon: "createdeco:orange_decal"
+	id: "4C6492AF464F1B21"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Info"
+}

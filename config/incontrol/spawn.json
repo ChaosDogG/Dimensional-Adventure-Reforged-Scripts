@@ -1,0 +1,26 @@
+[
+    {
+        "mob": "player_mobs:player_mob",
+        "mincount": {
+            "amount": 1000,
+            "perchunk": true
+        },
+        "result": "deny"
+    },
+    {
+        "mob": "player_mobs:player_mob",
+        "dimension": "minecraft:the_nether",
+        "potion": "minecraft:fire_resistance,10000,1",
+        "result": "allow"
+    },
+    {
+        "mob": "player_mobs:player_mob",
+        "incontrol": true,
+        "result": "deny"
+    },
+    {
+        "mob": "player_mobs:player_mob",
+        "block": ["minecraft:tripwire"],
+        "result": "deny"
+    }
+]

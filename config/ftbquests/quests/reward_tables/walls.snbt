@@ -1,0 +1,39 @@
+{
+	id: "6CA46421D3B0174A"
+	loot_crate: {
+		color: 4868682
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "walls"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:mossy_cobblestone_wall" }
+		{ item: "minecraft:cobblestone_wall" }
+		{ item: "minecraft:brick_wall" }
+		{ item: "minecraft:prismarine_wall" }
+		{ item: "minecraft:red_sandstone_wall" }
+		{ item: "minecraft:mossy_stone_brick_wall" }
+		{ item: "minecraft:granite_wall" }
+		{ item: "minecraft:stone_brick_wall" }
+		{ item: "minecraft:mud_brick_wall" }
+		{ item: "minecraft:nether_brick_wall" }
+		{ item: "minecraft:andesite_wall" }
+		{ item: "minecraft:red_nether_brick_wall" }
+		{ item: "minecraft:sandstone_wall" }
+		{ item: "minecraft:end_stone_brick_wall" }
+		{ item: "minecraft:diorite_wall" }
+		{ item: "minecraft:blackstone_wall" }
+		{ item: "minecraft:polished_blackstone_wall" }
+		{ item: "minecraft:polished_blackstone_brick_wall" }
+		{ item: "minecraft:cobbled_deepslate_wall" }
+		{ item: "minecraft:polished_deepslate_wall" }
+		{ item: "minecraft:deepslate_brick_wall" }
+		{ item: "minecraft:deepslate_tile_wall" }
+	]
+	title: "Walls"
+}

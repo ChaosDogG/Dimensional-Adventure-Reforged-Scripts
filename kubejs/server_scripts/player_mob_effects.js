@@ -1,17 +1,19 @@
 EntityEvents.spawned(event => {
-    const entity = event.entity;
-    let air = Ingredient.of('air')
-    const isPlayerMob = entity.type === 'player_mobs:player_mob';
-    const isJimmyHere = entity.username.displayName === 'JimmyHere';
-    const isErza = entity.username.displayName === '_Erza_';
+    const $Attributes = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes');
     const armorTypes = [
-        { ingredient: Ingredient.of(/minecraft:leather.*/), effects: [{ type: 'speed', duration: 10000, amplifier: 0 }] },
-        { ingredient: Ingredient.of(/minecraft:iron.*/), effects: [{ type: 'strength', duration: 10000, amplifier: 1 }] },
         { ingredient: Ingredient.of(/minecraft:chainmail.*/), effects: [{ type: 'jump_boost', duration: 10000, amplifier: 0 }] },
-        { ingredient: Ingredient.of(/minecraft:golden.*/), effects: [{ type: 'fire_resistance', duration: 10000, amplifier: 0 }] },
         { ingredient: Ingredient.of(/minecraft:diamond.*/), effects: [{ type: 'strength', duration: 10000, amplifier: 3 }] },
+        { ingredient: Ingredient.of(/minecraft:golden.*/), effects: [{ type: 'fire_resistance', duration: 10000, amplifier: 0 }] },
+        { ingredient: Ingredient.of(/minecraft:iron.*/), effects: [{ type: 'strength', duration: 10000, amplifier: 1 }] },
+        { ingredient: Ingredient.of(/minecraft:leather.*/), effects: [{ type: 'speed', duration: 10000, amplifier: 0 }] },
         { ingredient: Ingredient.of(/minecraft:netherite.*/), effects: [{ type: 'resistance', duration: 10000, amplifier: 3 }] }
     ];
+    const entity = event.entity;
+    const isErza = entity.username.displayName === '_Erza_';
+    const isJimmyHere = entity.username.displayName === 'JimmyHere';
+    const isPlayerMob = entity.type === 'player_mobs:player_mob';
+    let air = Ingredient.of('air');
+
     if (isPlayerMob) {
         if (isJimmyHere && entity.headArmorItem === 'air') {
             entity.headArmorItem = 'farmersdelight:tomato';
@@ -40,14 +42,17 @@ EntityEvents.spawned(event => {
         }
     }
     if (entity.type == 'player_mobs:player_mob'){
-        const HP = entity.getHealth();
-        const maxHP = entity.getMaxHealth();
-        if (HP != maxHP && maxHP != 20){
-            entity.setHealth(maxHP)
-        }
-        if (HP != maxHP && maxHP > 50){
-            entity.setMaxHealth(50)
-            entity.setHealth(50)
+        const HP = entity.health;
+        const maxHP = entity.maxHealth;
+        if (HP != maxHP) {
+            if (maxHP > 20){
+                entity.health = maxHP
+            }
+            if (maxHP > 50){
+                entity.getAttribute($Attributes.MAX_HEALTH).removeModifiers()
+                entity.maxHealth = 50
+                entity.health = 50
+            }
         }
     }
 });
@@ -115,6 +120,7 @@ EntityEvents.hurt(event => {
                 break;
             case 'mysticat_':
             case 'Paimon':
+            case 'ElectroniCritic': 
                 if (event.getSource().type == 'fall') {
                     event.cancel();
                 }

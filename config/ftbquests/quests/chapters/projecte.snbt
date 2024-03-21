@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "projecte"
+	group: "088F90EFBA950F60"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
+	id: "0AB00491C4A24524"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"ProjectE, probably the mod most known for making packs become \"easy mode\" once it's installed. However, in this reality that is not the case! Now, only base materials such as logs, stones, ores, raw minerals, and the like will have EMC values. This is to promote automation and processing rather than \"Get All The Stuff For Free\". If you want to produce EMC, look to Energy Collectors, Energy Condensers, and the Refined Cores. Recipes are also edited to make this mod harder to get into, and will continue to be edited as needed to keep you from getting into it too quickly."
+				""
+				"The Philosopher's Stone is the beginning to this mod, but getting into it will require getting into Create's Brass Age, either Mekanism or Thermal dust productions, the Nether, Botania Runes, and bonking the Wither. There are four references within this recipe, see if you can guess them all! (The Avatar is not an intended reference)"
+			]
+			id: "36211E81B04E1B78"
+			rewards: [{
+				id: "4F1D92E110A81B5C"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "An Alchemist's Best Tool"
+			tasks: [{
+				id: "3CC8D104A182FC3C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36211E81B04E1B78"]
+			id: "1CD4594953219F1B"
+			tasks: [{
+				id: "6AA738673D115A9B"
+				item: "projecte:alchemical_coal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CD4594953219F1B"]
+			id: "642B9555290C7617"
+			tasks: [{
+				id: "1A9078D3D653AF8A"
+				item: "projecte:mobius_fuel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["642B9555290C7617"]
+			id: "5E984D81A16FBFA4"
+			tasks: [{
+				id: "147CF6F8042AC459"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E984D81A16FBFA4"]
+			id: "39D2D512C44FD6AD"
+			tasks: [{
+				id: "1A9F1FE6EEB77A48"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36211E81B04E1B78"]
+			id: "245A6879E873B8AE"
+			tasks: [{
+				id: "150D436ABA244267"
+				item: "projecte:collector_mk1"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36211E81B04E1B78"]
+			id: "2F266B5C19EE4BBC"
+			tasks: [{
+				id: "0F5F54D1C498B2F1"
+				item: "projecte:relay_mk1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36211E81B04E1B78"]
+			id: "7A8841F78DFEF378"
+			tasks: [{
+				id: "070A00058FF8C66D"
+				item: "projecte:dm_pedestal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36211E81B04E1B78"]
+			id: "127AF60E6BA3781A"
+			tasks: [{
+				id: "14B336BC451E814D"
+				item: "projecte:transmutation_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["127AF60E6BA3781A"]
+			id: "456E93DF209B5E10"
+			tasks: [{
+				id: "5FBE1EB1D42ADDE8"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36211E81B04E1B78"]
+			id: "244916703A0A41A6"
+			tasks: [{
+				id: "5E02040C88BE283A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:repair_talisman"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36211E81B04E1B78"]
+			id: "132925A57A429AA9"
+			tasks: [{
+				id: "15CEA344EAF999DE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:watch_of_flowing_time"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F266B5C19EE4BBC"]
+			id: "5C901F4CF87F1246"
+			tasks: [{
+				id: "5440E1E5A93EC3F6"
+				item: "projecte:relay_mk2"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C901F4CF87F1246"]
+			id: "0F0B55C96D346B48"
+			tasks: [{
+				id: "1EB3A2CA60C74033"
+				item: "projecte:relay_mk3"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["245A6879E873B8AE"]
+			id: "560FCFFA3579404C"
+			tasks: [{
+				id: "5060593292697D8A"
+				item: "projecte:collector_mk2"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["560FCFFA3579404C"]
+			id: "17029DCC93F4D3B2"
+			tasks: [{
+				id: "26D6A5688A366B50"
+				item: "projecte:collector_mk3"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+	]
+	title: "ProjectE"
+}

@@ -1,0 +1,63 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "train"
+	group: "3D970B6650D02011"
+	icon: "create:railway_casing"
+	id: "3A4AD691E05D0FED"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "685CDF700BE2F0E9"
+			tasks: [{
+				id: "778AFFB46823A0D6"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["685CDF700BE2F0E9"]
+			id: "001D98492701BF7A"
+			tasks: [{
+				id: "3666A41497E87E1D"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["001D98492701BF7A"]
+			id: "3CF815A7FAA23FC0"
+			tasks: [
+				{
+					id: "13CCFF09E3DEC953"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+				{
+					id: "35D0A4A8B46133BF"
+					item: "create:brass_casing"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CF815A7FAA23FC0"]
+			id: "6CD330F54564B35F"
+			tasks: [{
+				id: "77DEC79A3B567125"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "Create: Trains"
+}

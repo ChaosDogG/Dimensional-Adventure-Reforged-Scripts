@@ -1,0 +1,43 @@
+{
+  "editorLastVersion": "0.6.15a",
+  "playerSettings": {},
+  "globalSettings": {
+    "safetyProfile": "off"
+  },
+  "blockedList": {},
+  "modelProperties": {
+    "Sex Engine V1": {
+      "values": {
+        "Errection": 1.0,
+        "Smile/Frown": 0.0,
+        "None     ": 1.0,
+        "Slow ": 0.0,
+        "Medium ": 0.0,
+        "Hard ": 0.0,
+        "Pussy Spread": 0.0
+      },
+      "profiles": {}
+    }
+  },
+  "serverSettings": {},
+  "editorSelectMouseButton": 0.0,
+  "titleScreenButton": true,
+  "keybinds": {},
+  "friendSettings": {
+    "animatedTex": true,
+    "maxLink": 262144.0,
+    "maxTex": 8192.0,
+    "maxCubeCount": 2.147483646E9
+  },
+  "editorDragMouseButton": -1.0,
+  "editorMenuMouseButton": 1.0,
+  "editorRotateMouseButton": 2.0,
+  "editorRecentProjects": [],
+  "safetyProfiles": {},
+  "friendList": {
+    "54041251-2bf2-49d9-9ac5-44fbed8fefe1": {
+      "name": "Gh05tF1yy"
+    }
+  },
+  "editorScale": 1.0
+}

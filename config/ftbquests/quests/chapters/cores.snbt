@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cores"
+	group: "51CBBBCADE18F49D"
+	icon: "kubejs:refined_creative_core"
+	id: "4CDEF3D4D312F633"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3CAF0FC3694BC0C1"
+			tasks: [{
+				id: "224EDB145F8A34DA"
+				item: "kubejs:unprocessed_competitive_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "00C96CD966B30904"
+			tasks: [{
+				id: "40CCB9B579FE8D8F"
+				title: "Cores"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Cores"
+}

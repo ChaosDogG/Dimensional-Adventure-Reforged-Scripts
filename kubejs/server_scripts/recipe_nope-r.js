@@ -47,6 +47,7 @@ ServerEvents.recipes(event => {
     id('create:compat/silentsgems/crushing/tektite_ore')
     id('create:compat/silentsgems/crushing/yellow_diamond_ore')
     id('create:compat/silentsgems/crushing/zircon_ore')
+    id('silentgear:diamond_from_shards')
     id('unusualend:chiseled_endstone_recipe_1')
 
     dm('axe')

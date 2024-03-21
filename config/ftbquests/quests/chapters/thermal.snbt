@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal"
+	group: "3E9DCC1A8F114D3A"
+	icon: {
+		Count: 1b
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "thermal:guidebook"
+		}
+	}
+	id: "4C387B0DF6EADB30"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Thermal"
+}

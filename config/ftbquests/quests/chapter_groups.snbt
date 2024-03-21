@@ -1,0 +1,15 @@
+{
+	chapter_groups: [
+		{ id: "22D6CFE5E7BEFCD2", title: "Information" }
+		{ id: "3C4E11D982F9FAD6", title: "Dimensions" }
+		{ id: "51CBBBCADE18F49D", title: "Cores" }
+		{ id: "3D970B6650D02011", title: "Create" }
+		{ id: "3E9DCC1A8F114D3A", title: "Thermal" }
+		{ id: "13F556177D7984B6", title: "Mekanism" }
+		{ id: "1D02B905A8EC1E00", title: "Industrial Foregoing" }
+		{ id: "5B2E17B7FE5CEFDC", title: "Botania" }
+		{ id: "727CB93DB7E0CD58", title: "Storage" }
+		{ id: "34400A14963C21C2", title: "Power" }
+		{ id: "088F90EFBA950F60", title: "Misc Mods" }
+	]
+}

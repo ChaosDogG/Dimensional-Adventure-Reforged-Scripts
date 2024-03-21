@@ -3,6 +3,7 @@
 ServerEvents.tags('item', event => {
 
     event.remove('forge:ores/silver', 'silentgems:raw_silver')
+    event.add('forge:raw_materials/silver', 'silentgems:raw_silver')
 
     for(const core of core_type) {
         event.add('randomium:blacklist', `kubejs:unprocessed_${core}_core`)
@@ -40,6 +41,7 @@ ServerEvents.tags('item', event => {
     event.add('randomium:blacklist', /megacells/)
     event.add('randomium:blacklist', /netherite/)
     event.add('randomium:blacklist', /projecte/)
+    event.add('randomium:blacklist', /unfinished/)
     event.add('randomium:blacklist', /tetra:modular/)
     event.add('randomium:blacklist', /thermal_extra/)
     event.add('randomium:blacklist', /shulker_box/)
@@ -86,11 +88,22 @@ ServerEvents.tags('item', event => {
     event.add('forge:ores/quartz', 'byg:blue_nether_quartz_ore')
     event.add('forge:ores/quartz', 'byg:brimstone_nether_quartz_ore')
     event.add('forge:ores/redstone', 'byg:cryptic_redstone_ore')
+    
+    event.add('forge:ingots/bronze', 'create_dd:bronze_ingot')
+    event.add('forge:plates/bronze', 'create_dd:bronze_sheet')
+    event.add('forge:nuggets/bronze', 'create_dd:bronze_nugget')
+    event.add('forge:storage_blocks/bronze', 'create_dd:bronze_block')
 
     event.add('minecraft:soul_fire_base_blocks', 'byg:warped_soul_sand')
     event.add('minecraft:soul_fire_base_blocks', 'byg:warped_soul_soil')
 
-    event.add('dar:soul_items', '#minecraft:soul_fire_base_blocks')
+    event.add('minecraft:music_discs', 'supplementaries:pancake')
+
+    event.add('botanicalmachinery:mechanical_apothecary_catalysts', 'paper')
+    event.add('botanicalmachinery:mechanical_apothecary_catalysts', 'botania:mana_powder')
+    event.add('botanicalmachinery:mechanical_apothecary_catalysts', 'botania:mana_diamond')
+    event.add('botanicalmachinery:mechanical_apothecary_catalysts', 'botania:dragonstone')
+
     event.add('dar:soul_items', 'art_of_forging:dragon_soul')
     event.add('dar:soul_items', 'art_of_forging:soul_ember')
     event.add('dar:soul_items', 'blue_skies:soul_fragment')
@@ -170,6 +183,10 @@ ServerEvents.tags('item', event => {
 
     event.add('create:upright_on_belt', '#forge:buckets')
 
+    event.add('create:layered_casing', 'create:railway_casing')
+    event.add('create:layered_casing', 'create_dd:hydraulic_casing')
+    event.add('create:layered_casing', 'create_dd:industrial_casing')
+    event.add('create:layered_casing', 'create_dd:overburden_casing')
 })
 
 ServerEvents.tags('block', event => {

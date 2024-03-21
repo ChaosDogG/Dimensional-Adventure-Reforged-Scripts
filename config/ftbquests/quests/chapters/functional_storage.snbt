@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "functional_storage"
+	group: "727CB93DB7E0CD58"
+	icon: "functionalstorage:storage_controller"
+	id: "108B3F463EBE4380"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "488C581E49F0F958"
+			tasks: [{
+				id: "4C7F576E49316DF1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Any #functionalstorage:drawer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["488C581E49F0F958"]
+			id: "0B023AC6DF015E82"
+			tasks: [{
+				id: "4F8ECE996855C32D"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B023AC6DF015E82"]
+			id: "2AC17CF60A089A12"
+			tasks: [
+				{
+					id: "0D1699872799D940"
+					item: {
+						Count: 1b
+						id: "functionalstorage:linking_tool"
+						tag: {
+							Action: "ADD"
+							Mode: "SINGLE"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6731BE35F9CFAF8D"
+					item: {
+						Count: 1b
+						id: "functionalstorage:configuration_tool"
+						tag: {
+							Mode: "LOCKING"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	title: "Functional Storage"
+}

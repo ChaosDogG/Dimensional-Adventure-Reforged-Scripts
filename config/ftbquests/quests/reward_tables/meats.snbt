@@ -1,0 +1,26 @@
+{
+	id: "1002B3896184E74C"
+	loot_crate: {
+		color: 9512221
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "meats"
+	}
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "minecraft:cooked_beef" }
+		{ item: "minecraft:cooked_chicken" }
+		{ item: "minecraft:cooked_mutton" }
+		{ item: "alexsmobs:cooked_moose_ribs" }
+		{ item: "alexsmobs:cooked_kangaroo_meat" }
+		{ item: "alexsdelight:cooked_bison" }
+		{ item: "alexsdelight:cooked_bunfungus" }
+		{ item: "blue_skies:cooked_carabeef" }
+		{ item: "farmersdelight:smoked_ham" }
+	]
+	title: "Meats"
+}

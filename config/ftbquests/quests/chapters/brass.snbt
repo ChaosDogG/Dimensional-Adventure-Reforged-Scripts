@@ -1,0 +1,67 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "brass"
+	group: "3D970B6650D02011"
+	icon: "create:brass_casing"
+	id: "2E4D7F6C2747669D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "17AB967319792663"
+			tasks: [
+				{
+					id: "383F6AF6AE82C5B7"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "4B033001B8D4AB5D"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17AB967319792663"]
+			icon: "create:brass_ingot"
+			id: "7116DE65BAC9E15D"
+			tasks: [
+				{
+					id: "410A3DAD0E31B208"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "45CAF6B44436B242"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:stripped_logs"
+						}
+					}
+					title: "Any #forge:stripped_logs"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7116DE65BAC9E15D"]
+			id: "6CA5E97A1DAF50D7"
+			tasks: [{
+				id: "1513AE5152F2C14D"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Create: Brass Age"
+}

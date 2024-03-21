@@ -1,0 +1,145 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_family"
+	group: "727CB93DB7E0CD58"
+	icon: {
+		Count: 1b
+		id: "sophisticatedbackpacks:backpack"
+		tag: {
+			contentsUuid: [I;
+				-970217699
+				-1906684212
+				-1587700168
+				-842733920
+			]
+			inventorySlots: 27
+			upgradeSlots: 1
+		}
+	}
+	id: "6B5BD1205978B0B8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4C6278D92268BB24"
+			tasks: [{
+				id: "6D35E7B65186790F"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							-751336748
+							606422807
+							-1888900757
+							1762252012
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C6278D92268BB24"]
+			id: "602010F6BF6FB99C"
+			tasks: [{
+				id: "368D36ECD915E73C"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:iron_backpack"
+					tag: {
+						contentsUuid: [I;
+							1550319720
+							-467384996
+							-1414616478
+							1567333704
+						]
+						inventorySlots: 54
+						upgradeSlots: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["602010F6BF6FB99C"]
+			id: "35149DAD8CA1F913"
+			tasks: [{
+				id: "66E32B4743DC71B8"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:gold_backpack"
+					tag: {
+						contentsUuid: [I;
+							-1298430841
+							17056374
+							-1880414935
+							353794697
+						]
+						inventorySlots: 81
+						upgradeSlots: 3
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["35149DAD8CA1F913"]
+			id: "4BB94D00D141D502"
+			tasks: [{
+				id: "7F42A961E2BB0032"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:diamond_backpack"
+					tag: {
+						contentsUuid: [I;
+							542406183
+							859130739
+							-1653521826
+							-385454261
+						]
+						inventorySlots: 108
+						upgradeSlots: 5
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4BB94D00D141D502"]
+			id: "35FFD46A80C2D9DC"
+			tasks: [{
+				id: "21BEE3BF202FFB4B"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:netherite_backpack"
+					tag: {
+						contentsUuid: [I;
+							-1680163737
+							-1453961789
+							-1184688480
+							-1579308439
+						]
+						inventorySlots: 120
+						upgradeSlots: 7
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	title: "Sophisticated Family"
+}

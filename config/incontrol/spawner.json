@@ -1,0 +1,22 @@
+[
+    {
+        "mob": "player_mobs:player_mob",
+        "persecond": 0.005,
+        "attempts": 20,
+        "amount": {
+            "minimum": 2,
+            "maximum": 5,
+            "groupdistance": 3
+        },
+        "conditions": {
+            "dimension": ["aether:the_aether", "allthemodium:mining", "allthemodium:the_other", "blue_skies:everbright", "blue_skies:everdawn", "deeperdarker:otherside", "minecraft:the_end", "minecraft:the_nether", "mining_dimension:mining", "sgjourney:abydos", "sgjourney:cavum_tenebrae", "sgjourney:chulak", "sgjourney:lantea", "the_bumblezone:the_bumblezone", "twilightforest:twilight_forest", "undergarden:undergarden"],
+            "maxdist": 100,
+            "maxheight": 200,
+            "maxthis": 100,
+            "mindist": 25,
+            "minheight": 15,
+            "sturdy": true,
+            "validspawn": true
+        }
+    }
+]

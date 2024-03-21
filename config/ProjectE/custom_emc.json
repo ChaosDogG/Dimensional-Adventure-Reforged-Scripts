@@ -1,0 +1,572 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:tuff",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:diorite",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:granite",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:andesite",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:sand",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:planks",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:mangrove_roots",
+      "emc": 0
+    },
+    {
+      "item": "#forge:stripped_logs",
+      "emc": 0
+    },
+    {
+      "item": "#forge:stripped_wood",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pumpkin",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:carved_pumpkin",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:soul_sand",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:soul_soil",
+      "emc": 0
+    },
+    {
+      "item": "#forge:gems",
+      "emc": 0
+    },
+    {
+      "item": "#forge:ingots",
+      "emc": 0
+    },
+    {
+      "item": "#forge:dusts",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:leaves",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:grass_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:podzol",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rooted_dirt",
+      "emc": 0
+    },
+    {
+      "item": "#forge:gravel",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sponge",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wet_sponge",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:magma_block",
+      "emc": 0
+    },
+    {
+      "item": "#forge:ices",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:basalt",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:mycelium",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:crying_obsidian",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:blackstone",
+      "emc": 0
+    },
+    {
+      "item": "#forge:plants",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:moss_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:hanging_roots",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:big_dripleaf",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:small_dripleaf",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chorus_plant",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chorus_flower",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:snow",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:glow_lichen",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sculk",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sculk_vein",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sculk_catalyst",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sculk_shrieker",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dirt_path",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sea_pickle",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cobweb",
+      "emc": 0
+    },
+    {
+      "item": "#forge:heads",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pointed_dripstone",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:saddle",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:scute",
+      "emc": 0
+    },
+    {
+      "item": "#forge:eggs",
+      "emc": 0
+    },
+    {
+      "item": "#forge:rods",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:apple",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "emc": 0
+    },
+    {
+      "item": "#forge:foods/meat/raw",
+      "emc": 0
+    },
+    {
+      "item": "#forge:seeds",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:snowball",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:bone",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:melon_slice",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:ink_sac",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:glow_ink_sac",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cocoa_beans",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:ghast_tear",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:nether_wart",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:spider_eye",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:carrot",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:potato",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:poisonous_potato",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rabbit_hide",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:rabbit_foot",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:iron_horse_armor",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:diamond_horse_armor",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:name_tag",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:chorus_fruit",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:music_discs",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:beetroot",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:shulker_shell",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:disc_fragment_5",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:phantom_membrane",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:nautilus_shell",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:heart_of_the_sea",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sweet_berries",
+      "emc": 0
+    },
+    {
+      "item": "#forge:berries",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:honeycomb",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:honey_bottle",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:echo_shard",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cactus",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:wheat",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:flint",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dead_tube_coral_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dead_brain_coral_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dead_bubble_coral_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dead_fire_coral_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dead_horn_coral_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tube_coral_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:brain_coral_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:bubble_coral_block",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:fire_coral_block",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:coral_blocks",
+      "emc": 0
+    },
+    {
+      "item": "#botania:livingwood_logs",
+      "emc": 0
+    },
+    {
+      "item": "#botania:dreamwood_logs",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:hdpe_pellet",
+      "emc": 0
+    },
+    {
+      "item": "#botania:special_flowers",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:tube_coral",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:brain_coral",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:bubble_coral",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:fire_coral",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:horn_coral",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:trident",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:coals",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:ponder_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:sing_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:seek_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:feel_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:admire_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:call_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:yearn_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:goat_horn{instrument:\"minecraft:dream_goat_horn\"}",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:logs",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:saplings",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:flowers",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:calcite",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:dirt",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:crimson_nylium",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:warped_nylium",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:wool",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:obsidian",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:netherrack",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:end_stone",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:sugar_cane",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:bamboo",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:string",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:feather",
+      "emc": 0
+    },
+    {
+      "item": "#minecraft:fishes",
+      "emc": 0
+    },
+    {
+      "item": "#forge:mushrooms",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:nether_star",
+      "emc": 0
+    }
+  ]
+}

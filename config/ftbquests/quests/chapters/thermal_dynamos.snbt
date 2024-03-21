@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_dynamos"
+	group: "34400A14963C21C2"
+	icon: "thermal:dynamo_stirling"
+	id: "1D181D9DA28BBFD9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "40B521A794B3D783"
+			tasks: [{
+				id: "5A128922D0558D98"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40B521A794B3D783"]
+			id: "4850D007A3231BAC"
+			tasks: [{
+				id: "1607F281EA9B6262"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4850D007A3231BAC"]
+			id: "78345F5361848702"
+			tasks: [{
+				id: "1E1C8ADCC026477F"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78345F5361848702"]
+			id: "283947CB6017654C"
+			tasks: [{
+				id: "7E636F378FF680AE"
+				item: "thermal:dynamo_numismatic"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["283947CB6017654C"]
+			id: "25009C95F61BCF47"
+			tasks: [{
+				id: "3C62CB8D3C097933"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["25009C95F61BCF47"]
+			id: "6C155DFFE6B52E72"
+			tasks: [{
+				id: "1C27E0ED3DE5024D"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6C155DFFE6B52E72"]
+			id: "61E2D0A55F46E6B3"
+			tasks: [{
+				id: "06D4ACBE2A52623F"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+	]
+	title: "Thermal Dynamos"
+}

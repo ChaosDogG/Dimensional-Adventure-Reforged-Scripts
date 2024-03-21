@@ -1,3 +1,4 @@
+//priority: 2
 ServerEvents.recipes(event => {
 
     event.recipes.create.deploying('lightmanscurrency:coin_chocolate_copper', ['create:bar_of_chocolate', 'create:copper_sheet'])
@@ -47,9 +48,6 @@ ServerEvents.recipes(event => {
     event.remove({output: 'create:chromatic_compound'})
     event.recipes.create.mixing('create:chromatic_compound', ['create:andesite_alloy', '7x #forge:dyes', 'quark:rainbow_rune'])
 
-    event.recipes.create.item_application('create:refined_radiance_casing', ['#logs', 'create:refined_radiance'])
-    event.recipes.create.item_application('create:shadow_steel_casing', ['#logs', 'create:shadow_steel'])
-
     event.recipes.create.crushing('supplementaries:rope', 'everycomp:cfm/byg/ebony_blinds')
 
     event.replaceInput(
@@ -76,6 +74,21 @@ ServerEvents.recipes(event => {
         {output:'pipez:universal_pipe'},
         'iron_ingot',
         'create:sturdy_sheet'
+    )
+    event.replaceInput(
+        {id: 'create_dd:crafting/bronze_saw'},
+        '#forge:plates/strong_bronze',
+        '#forge:plates/bronze'
+    )
+    event.replaceInput(
+        {id: 'create_dd:crafting/bronze_ingot_from_compacting'},
+        '#forge:nuggets/strong_bronze',
+        '#forge:nuggets/bronze'
+    )
+    event.replaceInput(
+        {input: 'create_dd:bronze_ingot'},
+        'create_dd:bronze_ingot',
+        '#forge:ingots/bronze'
     )
 
     event.recipes.powah.energizing(['diamond_block'], 'powah:niotic_crystal_block', 2700000)

@@ -1,0 +1,85 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "andesite"
+	group: "3D970B6650D02011"
+	icon: "create:andesite_casing"
+	id: "21C7BB5C7F2BEF1F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:andesite"
+			id: "3DAEB32972E1DC87"
+			tasks: [
+				{
+					count: 2L
+					id: "3C1B6F87C4F1ED38"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0E557043CB8BFFCA"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:iron_nugget"
+								}
+								{
+									Count: 1b
+									id: "create:zinc_nugget"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DAEB32972E1DC87"]
+			icon: "create:andesite_alloy"
+			id: "373202C5F2729E23"
+			tasks: [
+				{
+					id: "363CA4B04D89E007"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "78E612AEBFAB9824"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:stripped_logs"
+						}
+					}
+					title: "Any #forge:stripped_logs"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["373202C5F2729E23"]
+			id: "3CB2C0BB4D2897FE"
+			tasks: [{
+				id: "57EB474989707844"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Create: Andesite Age"
+}

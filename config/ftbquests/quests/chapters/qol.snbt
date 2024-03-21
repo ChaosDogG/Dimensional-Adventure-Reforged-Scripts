@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "qol"
+	group: "22D6CFE5E7BEFCD2"
+	icon: "cyclic:heart"
+	id: "3028F38F0C7C6C7F"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Sometimes building can be such a chore, especially when you have such a large-scale project but not enough time in the day or you simply can't work ideas out in survival mode."
+				""
+				"Enter the Shematicannon! This handy tool can make building structures EASY! All you need to do is build what you want, even in another world, use the Schematic and Quill to collect the entire build, then go to the spot you want to build the structure, get an Empty Schematic and a Schematic Table, place down where you want it to go, then put the schematic in the cannon, fuel with gunpowder, supply the necessary blocks with inventories placed next to it so it can build (it is advised to NOT oversaturate your build pallet with materials that are either hard to get at your current stage or are flat out impossible), and watch as it builds your structure layer by layer!"
+				""
+				"I was even nice enough to supply you with a schematic right off the bat, Gregory! Use him to help you get used to using the cannon!"
+			]
+			icon: "create:schematicannon"
+			id: "404581E54F5FD9D5"
+			rewards: [{
+				id: "776DABBCF87A393F"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Builder's Aid"
+			tasks: [
+				{
+					id: "521B4C9BE28212FA"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "469572CB6E5B63B7"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "2DDF56F28877077B"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					id: "286FAE5805F76234"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Basic leads not cuttin it for whatever reason? Well have I the item for you: Diamond Leads! This neat bugger will work on ALL mobs, hostile or otherwise, allowing you to more easily put mobs in seats on Create contraptions!"]
+			id: "382D4C4AFDEE457F"
+			rewards: [{
+				id: "0C040DCE5815E5F3"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "GET OVER HERE!"
+			tasks: [{
+				id: "2D33E3D072C1F419"
+				item: "leashed:diamond_lead"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
+	title: "QoL"
+}

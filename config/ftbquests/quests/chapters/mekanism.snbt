@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "13F556177D7984B6"
+	icon: "mekanism:alloy_infused"
+	id: "31A3746D485AB04C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mekanism"
+}

@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "infustrial_foregoing"
+	group: "1D02B905A8EC1E00"
+	icon: "industrialforegoing:dissolution_chamber"
+	id: "1D76B617BEA55A2E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "2250F943200A6592"
+		tasks: [{
+			id: "2BAEEF43625B2B26"
+			item: "industrialforegoing:machine_frame_pity"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Infustrial Foregoing"
+}

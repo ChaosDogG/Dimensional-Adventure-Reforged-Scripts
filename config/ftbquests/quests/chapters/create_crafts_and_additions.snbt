@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_crafts_and_additions"
+	group: "34400A14963C21C2"
+	icon: "createaddition:alternator"
+	id: "1E0C4F5B2BB40658"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create: Crafts and Additions"
+}

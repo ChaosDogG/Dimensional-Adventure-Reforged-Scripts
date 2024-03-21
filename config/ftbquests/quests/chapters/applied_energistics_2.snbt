@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics_2"
+	group: "727CB93DB7E0CD58"
+	icon: "ae2:guide"
+	id: "79979F91AA246E08"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "76D53BA1CE1C4741"
+		tasks: [{
+			id: "18956438D34A0A73"
+			item: "ae2:meteorite_compass"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Applied Energistics 2"
+}
