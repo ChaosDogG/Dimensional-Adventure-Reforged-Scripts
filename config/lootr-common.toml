@@ -8,8 +8,6 @@ decay_loot_tables = []
 additional_chests = []
 #list of mod IDs whose loot tables will decay (default blank, meaning no chests decay, in the format ["modid", "othermodid"])
 decay_modids = []
-#list of structures in which contains shouldn't be converted (in the format of ["modid:structure_name", "othermodid:other_structure_name"])
-loot_structure_blacklist = []
 #list of modids whose loot tables shouldn't be converted (in the format of ["modid", "other_modid"])
 loot_modid_blacklist = []
 #allows fake players to destroy Lootr chests without having to sneak, overrides the `disable_break` option for fake players
@@ -86,4 +84,6 @@ modid_dimension_whitelist = []
 trapped_custom = false
 #whether or not the Elytra item frame should be converted into a standard loot chest with a guaranteed elytra
 convert_elytras = true
+#disables styling of breaking, decaying and refreshing messages sent to players
+disable_message_styles = false
 

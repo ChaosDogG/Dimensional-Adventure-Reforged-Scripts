@@ -23,6 +23,17 @@ ServerEvents.recipes(event => {
         'allthemodium:unobtainium_block'
     )
 
+    event.replaceInput(
+        {output: 'enderstorage:ender_chest'},
+        'blaze_rod',
+        'create:brass_ingot'
+    )
+    event.replaceInput(
+        {output: 'enderstorage:ender_tank'},
+        'blaze_rod',
+        'copper_ingot'
+    )
+
     event.recipes.create.emptying([Fluid.of('milk', 1000), 'aether:skyroot_bucket'], 'aether:skyroot_milk_bucket')
     event.recipes.create.emptying([Fluid.of('milk', 1000), 'blue_skies:ventium_bucket'], 'blue_skies:ventium_milk_bucket')
     event.recipes.create.emptying([Fluid.of('water', 1000), 'aether:skyroot_bucket'], 'aether:skyroot_water_bucket')

@@ -34,6 +34,7 @@ ServerEvents.recipes(event => {
     head_1(Item.of('a_man_with_plushies:plush_box').withChance(0.25), 'TheWolfAndTheBoy')
     head_1(Item.of('alexsmobs:spawn_egg_seagull').withChance(0.25), 'CringyGull')
     head_1(Item.of('artifacts:running_shoes').withChance(0.2), 'Sonic')
+    head_1(Item.of('artifacts:feral_claws').withChance(0.2), 'ElectroniCritic')
     head_1(Item.of('axolotl_spawn_egg').withChance(0.25), 'JessTheAxolotl')
     head_1(Item.of('kubejs:unprocessed_competitive_core').withChance(0.1), 'KashiiKiwii')
     head_1(Item.of('kubejs:unprocessed_competitive_core').withChance(0.1), 'Ligeriscool')
@@ -114,6 +115,7 @@ ServerEvents.recipes(event => {
     head_3(Item.of('byg:byg_logo').withChance(0.001), Item.of('biomesoplenty:bop_icon').withChance(0.001), Item.of('kubejs:unprocessed_meme_core').withChance(0.1), 'PerfectBidoof')
     head_3(Item.of('byg:byg_logo').withChance(0.001), Item.of('biomesoplenty:bop_icon').withChance(0.001), Item.of('kubejs:unprocessed_meme_core').withChance(0.1), 'Waluigi')
 
+    head_4('etched:music_label', 'etched:blank_music_disc', Item.of('kubejs:unprocessed_creative_core').withChance(0.1), maid1, 'CaptainSparklez')
     head_4('farmersdelight:tomato', maid1, maid2, Item.of('frog_spawn_egg').withChance(0.25), 'JimmyHere')
     head_4('feather', Item.of('alexsmobs:spawn_egg_crow').withChance(0.25), Item.of('kubejs:unprocessed_competitive_core').withChance(0.1), maid1, 'SpicySaint')
     head_4('feather', Item.of('kubejs:unprocessed_creative_core').withChance(0.1), maid1, maid2, 'DoniBobes')

@@ -44,6 +44,7 @@ EntityEvents.spawned(event => {
     if (entity.type == 'player_mobs:player_mob'){
         const HP = entity.health;
         const maxHP = entity.maxHealth;
+        entity.getAttribute($Attributes.MOVEMENT_SPEED).removeModifiers()
         if (HP != maxHP) {
             if (maxHP > 20){
                 entity.health = maxHP
@@ -53,6 +54,9 @@ EntityEvents.spawned(event => {
                 entity.maxHealth = 50
                 entity.health = 50
             }
+        }
+        if (entity.username.displayName == 'Sonic') {
+            entity.setAttributeBaseValue('minecraft:generic.movement_speed', 1.25)
         }
     }
 });
@@ -94,6 +98,23 @@ EntityEvents.hurt(event => {
                     event.cancel();
                 }
                 break;
+            case 'SpicySaint':
+                if (event.getSource().type == 'onFire') {
+                    entity.setRemainingFireTicks(0);
+                    event.cancel();
+                }
+                if (event.getSource().type == 'inFire') {
+                    entity.setRemainingFireTicks(0);
+                    event.cancel();
+                }
+                if (event.getSource().type == 'lava') {
+                    entity.setRemainingFireTicks(0);
+                    event.cancel();
+                }
+                if (event.getSource().type == 'fall') {
+                    event.cancel();
+                }
+                break;
             case 'HuskyMudkipz':
                 if (event.getSource().type == 'lightningBolt') {
                     event.cancel();
@@ -102,6 +123,7 @@ EntityEvents.hurt(event => {
             case 'foxynotail':
             case 'Fundy':
             case 'ItsFundy':
+            case 'Zambun':
                 if (event.getSource().type == 'sweetBerryBush') {
                     event.cancel();
                 }

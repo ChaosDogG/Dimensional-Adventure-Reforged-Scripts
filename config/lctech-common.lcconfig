@@ -11,6 +11,11 @@
 	#/reload required for changes to take effect.
 	allowFluidTankCrafting=true
 	
+	#Wheter the Void Tank can be crafted.
+	#Disabling will not remove any existing fluid tanks from the world, nor prevent their use.
+	#/reload required for changes to take effect.
+	allowVoidTankCrafting=true
+	
 	#Whether Energy Traders can be crafted.
 	#Also affects crafting of energy trader accessories (Energy Trader Interface, Energy Capacity Upgrades, etc.)
 	#Disabling will not remove any existing Energy Traders from the world, nor prevent their use.
