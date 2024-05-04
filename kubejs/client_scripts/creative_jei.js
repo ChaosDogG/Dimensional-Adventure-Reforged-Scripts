@@ -20,6 +20,8 @@ JEIEvents.addItems(event => {
 
     event.add(Item.of('byg:byg_logo'))
 
+    event.add(Item.of('cfm:rainbow_sofa'))
+
     event.add(Item.of('citadel:citadel_book'))
     event.add(Item.of('citadel:debug'))
     event.add(Item.of('citadel:effect_item'))
@@ -108,5 +110,10 @@ JEIEvents.hideItems(event => {
     event.hide(Item.of('mekanism:meka_tool'))
     event.hide(Item.of('mekanism:hdpe_elytra'))
     event.hide(Item.of(/mekanism:module.*/))
+    event.hide(Item.of(/mekanismgenerators:module.*/))
+    event.hide(Item.of(/projectexpansion:.*_collector/))
+    event.hide(Item.of(/projectexpansion:.*_relay/))
+    event.hide(Item.of(/projecte:collector.*/))
+    event.hide(Item.of(/projecte:relay.*/))
 
 })

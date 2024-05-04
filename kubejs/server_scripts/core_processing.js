@@ -8,6 +8,54 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing('kubejs:unprocessed_meme_core', ['ender_pearl', 'alexsmobs:mungal_spores', 'alexsdelight:raw_bunfungus', 'alexsmobs:mimicream']).superheated()
     event.recipes.create.mixing('kubejs:unprocessed_technical_core', ['ender_pearl', 'command_block', 'debug_stick', 'quark:rainbow_rune']).superheated()
 
+    event.recipes.extendedcrafting.shaped_table('kubejs:unprocessed_overworld_core', [
+        'sgf',
+        'cew',
+        'dpa'
+    ],{
+        s: '#saplings',
+        g: 'grass_block',
+        f: '#flowers',
+        c: 'cobblestone',
+        e: 'ender_pearl',
+        w: 'water_bucket',
+        d: 'diamond',
+        p: 'porkchop',
+        a: 'apple'
+    }
+)
+    event.recipes.extendedcrafting.shaped_table('kubejs:unprocessed_nether_core', [
+        'nal',
+        'ser',
+        'obt'
+    ],{
+        n: 'nether_bricks',
+        a: 'ancient_debris',
+        l: 'lava_bucket',
+        s: '#soul_fire_base_blocks',
+        e: 'ender_pearl',
+        r: 'blaze_rod',
+        o: 'obsidian',
+        b: 'blackstone',
+        t: 'basalt'
+    }
+)
+    event.recipes.extendedcrafting.shaped_table('kubejs:unprocessed_end_core', [
+        'sch',
+        'pey',
+        'Erf'
+    ],{
+        s: 'end_stone',
+        c: 'chorus_flower',
+        h: 'shulker_shell',
+        p: 'purpur_block',
+        e: 'ender_pearl',
+        y: 'ender_eye',
+        E: 'tconstruct:enderman_head',
+        r: 'end_crystal',
+        f: 'byg:shulkren_fungus'
+    })
+
     for(const core of core_type) {
         event.recipes.botania.elven_trade(`kubejs:refined_${core}_core`, [`kubejs:unprocessed_${core}_core`, 'blaze_powder'])
     }

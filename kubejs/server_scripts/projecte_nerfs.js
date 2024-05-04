@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'projecte:medium_covalence_dust'})
     event.remove({output: 'projecte:high_covalence_dust'})
     event.remove({output: 'projecte:interdiction_torch'})
+    event.remove({output: /projecte:transmutation.*/})
 
     event.recipes.create.mechanical_crafting('projecte:philosophers_stone', [
         'RSSSSSR',
@@ -27,20 +28,38 @@ ServerEvents.recipes(event => {
         3: 'botania:rune_earth',
         4: 'botania:rune_air'
     })
-    let inter = Item.of('minecraft:written_book', '{author:"ChaosDog",pages:[\'{"text":"You just lost\\\\nTHE GAME"}\'],title:"README.md"}')
+    let inter1 = Item.of('written_book', '{author:"ChaosDog",pages:[\'{"text":"You just lost\\\\nTHE GAME"}\'],title:"README.md"}')
+    let inter2 = Item.of('stone_slab')
+    let inter3 = Item.of('projecte:transmutation_table')
     event.recipes.create.sequenced_assembly([
         Item.of('projecte:repair_talisman').withChance(99),
         'paper'
         ],
         'paper',
         [
-            event.recipes.createDeploying(inter, [inter, Item.of('minecraft:enchanted_book').enchant('minecraft:mending', 1).strongNBT()]),
-            event.recipes.createDeploying(inter, [inter, 'paper']),
-            event.recipes.createDeploying(inter, [inter, 'projecte:low_covalence_dust']),
-            event.recipes.createDeploying(inter, [inter, 'projecte:medium_covalence_dust']),
-            event.recipes.createDeploying(inter, [inter, 'projecte:high_covalence_dust']),
-            event.recipes.createDeploying(inter, [inter, 'string'])
-    ]).transitionalItem(inter).loops(1)
+            event.recipes.createDeploying(inter1, [inter1, Item.of('minecraft:enchanted_book').enchant('minecraft:mending', 1).strongNBT()]),
+            event.recipes.createDeploying(inter1, [inter1, 'paper']),
+            event.recipes.createDeploying(inter1, [inter1, 'projecte:low_covalence_dust']),
+            event.recipes.createDeploying(inter1, [inter1, 'projecte:medium_covalence_dust']),
+            event.recipes.createDeploying(inter1, [inter1, 'projecte:high_covalence_dust']),
+            event.recipes.createDeploying(inter1, [inter1, 'string'])
+    ]).transitionalItem(inter1).loops(1)
+    event.recipes.create.sequenced_assembly([
+        'projecte:transmutation_table'
+        ],
+        'stone_slab',
+        [
+            event.recipes.createFilling(inter2, [inter2, Fluid.of('tconstruct:molten_obsidian', 1000)]),
+            event.recipes.createDeploying(inter2, [inter2, 'projecte:philosophers_stone']).keepHeldItem()
+        ]).transitionalItem(inter2).loops(4)
+    event.recipes.create.sequenced_assembly([
+        'projecte:transmutation_tablet'
+        ],
+        'projecte:transmutation_table',
+        [
+            event.recipes.createDeploying(inter3, [inter3, 'projecte:dark_matter_block']),
+            event.recipes.createPressing(inter3, inter3)
+        ]).transitionalItem(inter3).loops(4)
     event.recipes.botania.petal_apothecary(
         'projecte:repair_talisman',
         [

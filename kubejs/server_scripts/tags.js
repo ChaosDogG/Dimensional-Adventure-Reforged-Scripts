@@ -4,6 +4,7 @@ ServerEvents.tags('item', event => {
 
     event.remove('forge:ores/silver', 'silentgems:raw_silver')
     event.add('forge:raw_materials/silver', 'silentgems:raw_silver')
+    event.add('minecraft:redstone_ores', 'byg:cryptic_redstone_ore')
 
     for(const core of core_type) {
         event.add('randomium:blacklist', `kubejs:unprocessed_${core}_core`)
@@ -104,8 +105,10 @@ ServerEvents.tags('item', event => {
     event.add('forge:storage_block/potato', 'farmersdelight:potato_crate')
     event.add('forge:storage_block/beetroot', 'thermal:beetroot_block')
     event.add('forge:storage_block/beetroot', 'farmersdelight:beetroot_crate')
+    event.add('forge:storage_block/raw_naquadah', 'sgjourney:raw_naquadah_block')
     event.add('forge:storage_block', '#forge:storage_blocks/raw_crimson_iron')
     event.add('forge:storage_block', '#forge:storage_blocks/raw_azure_silver')
+    event.add('forge:storage_block', '#forge:storage_block/raw_naquadah')
     event.add('forge:storage_block', '#forge:storage_blocks/flint')
 
     event.add('forge:mushrooms', 'monsters_and_girls:end_puffball')
@@ -138,6 +141,7 @@ ServerEvents.tags('item', event => {
     event.add('minecraft:soul_fire_base_blocks', 'byg:warped_soul_soil')
 
     event.add('minecraft:music_discs', 'supplementaries:pancake')
+    event.add('minecraft:music_discs', 'wandering_bags:out_of_them_disc')
 
     event.add('botanicalmachinery:mechanical_apothecary_catalysts', 'paper')
     event.add('botanicalmachinery:mechanical_apothecary_catalysts', 'botania:mana_powder')
