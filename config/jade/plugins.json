@@ -63,7 +63,6 @@
     "mod_name": true
   },
   "apotheosis": {
-    "adventure": true,
     "ench": true,
     "spawner": true
   },
@@ -85,6 +84,21 @@
   "modularrouters": {
     "router": true
   },
+  "extendedcrafting": {
+    "elite_auto_table": true,
+    "ender_crafter": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
@@ -101,6 +115,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "projectexpansion": {
+    "provider": true
+  },
   "easy_villagers": {
     "villager": true,
     "converter": true,
@@ -109,11 +126,12 @@
   "pipez": {
     "pipe": true
   },
-  "touhou_little_maid": {
-    "maid": true
-  },
   "appliedcooking": {
     "kitchen_station": true
+  },
+  "touhou_little_maid": {
+    "maid": true,
+    "shrine_lamp": true
   },
   "twilightforest": {
     "quest_ram_wool": true

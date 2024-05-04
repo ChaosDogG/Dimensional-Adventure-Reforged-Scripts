@@ -1,6 +1,30 @@
 {
   "Chains": [
     {
+      "chain": "emeralds",
+      "name": {
+        "translate": "lightmanscurrency.money.chain.emeralds"
+      },
+      "displayType": "lightmanscurrency:number",
+      "displayFormat": {
+        "translate": "lightmanscurrency.money.chain.emeralds.display"
+      },
+      "displayFormatWordy": {
+        "translate": "lightmanscurrency.money.chain.emeralds.display.wordy"
+      },
+      "InputType": "DEFAULT",
+      "CoreChain": [
+        {
+          "Coin": "minecraft:emerald",
+          "baseUnit": true
+        },
+        {
+          "Coin": "minecraft:emerald_block",
+          "exchangeRate": 9
+        }
+      ]
+    },
+    {
       "chain": "main",
       "name": {
         "translate": "lightmanscurrency.money.chain.main"
@@ -75,20 +99,20 @@
             "exchangeRate": 9,
             "ParentCoin": "lightmanscurrency:coin_copper",
             "initial": {
-              "translate": "item.lightmanscurrency.coinpile_copper.initial"
+              "translate": "block.lightmanscurrency.coinpile_copper.initial"
             },
             "plural": {
-              "translate": "item.lightmanscurrency.coinpile_copper.plural"
+              "translate": "block.lightmanscurrency.coinpile_copper.plural"
             }
           },
           {
             "Coin": "lightmanscurrency:coinblock_copper",
             "exchangeRate": 4,
             "initial": {
-              "translate": "item.lightmanscurrency.coinblock_copper.initial"
+              "translate": "block.lightmanscurrency.coinblock_copper.initial"
             },
             "plural": {
-              "translate": "item.lightmanscurrency.coinblock_copper.plural"
+              "translate": "block.lightmanscurrency.coinblock_copper.plural"
             }
           }
         ],
@@ -98,20 +122,20 @@
             "exchangeRate": 9,
             "ParentCoin": "lightmanscurrency:coin_iron",
             "initial": {
-              "translate": "item.lightmanscurrency.coinpile_iron.initial"
+              "translate": "block.lightmanscurrency.coinpile_iron.initial"
             },
             "plural": {
-              "translate": "item.lightmanscurrency.coinpile_iron.plural"
+              "translate": "block.lightmanscurrency.coinpile_iron.plural"
             }
           },
           {
             "Coin": "lightmanscurrency:coinblock_iron",
             "exchangeRate": 4,
             "initial": {
-              "translate": "item.lightmanscurrency.coinblock_iron.initial"
+              "translate": "block.lightmanscurrency.coinblock_iron.initial"
             },
             "plural": {
-              "translate": "item.lightmanscurrency.coinblock_iron.plural"
+              "translate": "block.lightmanscurrency.coinblock_iron.plural"
             }
           }
         ],
@@ -121,20 +145,20 @@
             "exchangeRate": 9,
             "ParentCoin": "lightmanscurrency:coin_gold",
             "initial": {
-              "translate": "item.lightmanscurrency.coinpile_gold.initial"
+              "translate": "block.lightmanscurrency.coinpile_gold.initial"
             },
             "plural": {
-              "translate": "item.lightmanscurrency.coinpile_gold.plural"
+              "translate": "block.lightmanscurrency.coinpile_gold.plural"
             }
           },
           {
             "Coin": "lightmanscurrency:coinblock_gold",
             "exchangeRate": 4,
             "initial": {
-              "translate": "item.lightmanscurrency.coinblock_gold.initial"
+              "translate": "block.lightmanscurrency.coinblock_gold.initial"
             },
             "plural": {
-              "translate": "item.lightmanscurrency.coinblock_gold.plural"
+              "translate": "block.lightmanscurrency.coinblock_gold.plural"
             }
           }
         ],
@@ -144,20 +168,20 @@
             "exchangeRate": 9,
             "ParentCoin": "lightmanscurrency:coin_emerald",
             "initial": {
-              "translate": "item.lightmanscurrency.coinpile_emerald.initial"
+              "translate": "block.lightmanscurrency.coinpile_emerald.initial"
             },
             "plural": {
-              "translate": "item.lightmanscurrency.coinpile_emerald.plural"
+              "translate": "block.lightmanscurrency.coinpile_emerald.plural"
             }
           },
           {
             "Coin": "lightmanscurrency:coinblock_emerald",
             "exchangeRate": 4,
             "initial": {
-              "translate": "item.lightmanscurrency.coinblock_emerald.initial"
+              "translate": "block.lightmanscurrency.coinblock_emerald.initial"
             },
             "plural": {
-              "translate": "item.lightmanscurrency.coinblock_emerald.plural"
+              "translate": "block.lightmanscurrency.coinblock_emerald.plural"
             }
           }
         ],
@@ -167,20 +191,20 @@
             "exchangeRate": 9,
             "ParentCoin": "lightmanscurrency:coin_diamond",
             "initial": {
-              "translate": "item.lightmanscurrency.coinpile_diamond.initial"
+              "translate": "block.lightmanscurrency.coinpile_diamond.initial"
             },
             "plural": {
-              "translate": "item.lightmanscurrency.coinpile_diamond.plural"
+              "translate": "block.lightmanscurrency.coinpile_diamond.plural"
             }
           },
           {
             "Coin": "lightmanscurrency:coinblock_diamond",
             "exchangeRate": 4,
             "initial": {
-              "translate": "item.lightmanscurrency.coinblock_diamond.initial"
+              "translate": "block.lightmanscurrency.coinblock_diamond.initial"
             },
             "plural": {
-              "translate": "item.lightmanscurrency.coinblock_diamond.plural"
+              "translate": "block.lightmanscurrency.coinblock_diamond.plural"
             }
           }
         ],
@@ -190,20 +214,20 @@
             "exchangeRate": 9,
             "ParentCoin": "lightmanscurrency:coin_netherite",
             "initial": {
-              "translate": "item.lightmanscurrency.coinpile_netherite.initial"
+              "translate": "block.lightmanscurrency.coinpile_netherite.initial"
             },
             "plural": {
-              "translate": "item.lightmanscurrency.coinpile_netherite.plural"
+              "translate": "block.lightmanscurrency.coinpile_netherite.plural"
             }
           },
           {
             "Coin": "lightmanscurrency:coinblock_netherite",
             "exchangeRate": 4,
             "initial": {
-              "translate": "item.lightmanscurrency.coinblock_netherite.initial"
+              "translate": "block.lightmanscurrency.coinblock_netherite.initial"
             },
             "plural": {
-              "translate": "item.lightmanscurrency.coinblock_netherite.plural"
+              "translate": "block.lightmanscurrency.coinblock_netherite.plural"
             }
           }
         ]

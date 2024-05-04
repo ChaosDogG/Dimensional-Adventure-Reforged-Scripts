@@ -58,4 +58,8 @@ alchemicalCollectionSound = true
 editOthersAlchemicalBooks = "DISABLED"
 #If fluids which end their calculations at zero emc should be returned as free.
 zeroEmcFluidsAreFree = true
+#If optimizations (ticking only once per second) should be enabled for collectors. This will make them process at most one item each second.
+enableCollectorOptimizations = false
+#The bonus (multiplicative) the compact sun block should give. Set to 0 to disable.
+compactSunBonus = 10
 

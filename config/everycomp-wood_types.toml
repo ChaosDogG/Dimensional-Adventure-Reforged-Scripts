@@ -28,6 +28,7 @@
 
 		[types.wood_type.monsters_and_girls]
 			soul_wanderer = true
+			snowball = true
 
 		[types.wood_type.byg]
 			aspen = true
@@ -153,6 +154,12 @@
 
 		[types.wood_type.endergetic]
 			poise = true
+
+		[types.wood_type.tconstruct]
+			greenheart = true
+			skyroot = true
+			bloodshroom = true
+			enderbark = true
 
 	[types.leaves_type]
 
@@ -364,6 +371,11 @@
 
 		[types.leaves_type.create_dd]
 			rubber = true
+
+		[types.leaves_type.tconstruct]
+			earth_slime = true
+			sky_slime = true
+			ender_slime = true
 
 [entries]
 
