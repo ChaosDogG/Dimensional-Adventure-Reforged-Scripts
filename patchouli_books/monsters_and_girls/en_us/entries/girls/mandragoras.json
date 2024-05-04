@@ -1,0 +1,11 @@
+{
+    "name": "Mandragoras",
+    "icon": "monsters_and_girls:green_mandrake_spawn_egg",
+    "category": "patchouli:girls",
+    "pages": [
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:green_mandrake"
+        }
+    ]
+}

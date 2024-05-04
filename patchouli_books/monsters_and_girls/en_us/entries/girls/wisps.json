@@ -1,0 +1,27 @@
+{
+    "name": "Wisps",
+    "icon": "monsters_and_girls:blue_wisp_spawn_egg",
+    "category": "patchouli:girls",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Wisps",
+            "text": "I was exploring a Wooded Forest when I happened upon a Wisp! Though their appearance would lead one to believe they might be female, none of them show any signs of either sex, but they all seem very kindhearted! They like collecting gems, but they love snacking on gold. Perhaps I shouldn't take them to the Bastions... They also seem to have a destain for undead creatures, even going out of their way to attack Phantoms and Vexes, maybe they have some relation to the mythical creature known as an \"Allay\", though more research is needed to prove anything."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:blue_wisp",
+            "text": "I've noted that the wisps come in a trio of colors: blue, green, and yellow. The only differences I could really note between them aside from color is hair style and drops, the blue ones will drop diamonds upon being killed."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:green_wisp",
+            "text": "The green ones I've noticed will drop Emeralds."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:yellow_wisp",
+            "text": "And the yellow ones will drop Raw Gold, oddly enough."
+        }
+    ]
+}

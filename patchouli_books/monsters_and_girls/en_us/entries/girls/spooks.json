@@ -1,0 +1,22 @@
+{
+    "name": "Spooks",
+    "icon": "monsters_and_girls:spook_spawn_egg",
+    "category": "patchouli:girls",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Spooks",
+            "text": "While digging in the caves, I've discovered some strange dungeons full of strange urns. Breaking them spawns loot sometimes, but other times it'll spawn Silverfish or even some of these Spooks. I've noticed the spooks are completely immune to conventional damage types, only being affected by potions of healing. Mayhaps this is due to the fact that they are undead. They also seem to like Spectral Cakes...ghosts like cakes?!"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:spook",
+            "text": "These are the most common spooks that can spawn from breaking the urns. They are quite hostile, inflicting various debuffs upon them attacking me including a strange new one that I have yet to figure out what it does, but it does not bring me good vibes."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:peach",
+            "text": "A rare form of Spook known as Peach, these ones do not seem to be aggressive at all, but are still just as immune to physical attacks as the regular Spooks. Perhaps they are the spirits of peaceful people who have yet to pass on to the next realm."
+        }
+    ]
+}

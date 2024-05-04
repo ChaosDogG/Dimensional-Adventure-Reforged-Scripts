@@ -1,0 +1,67 @@
+{
+    "name": "Shrooms",
+    "icon": "monsters_and_girls:red_mushrom_gal_spawn_egg",
+    "category": "patchouli:girls",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Mushroom Girls",
+            "text": "Upon my travels, I happened upon a very small lady to whom I first thought was dressed as a mushroom. To my surprise, she's actually a sentient mushroom! I've asked around various villages to figure out where they may have originated, but none of them have a clear explanation. Some say that the Witches or Evokers had something to do with it, while others simply believe they naturally evolved this way. I've also noticed that they will spread their mushroom/fungus of origin on a viable surface."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:red_mushrom_gal",
+            "text": "These \"shrooms\" as I've come to call them are a very fair figure shape with noticeable pigtails and resemble the Red Mushroom. Something I've noted is every mushroom seems to have a girl variant."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:fly_alexgaric",
+            "text": "This shroom is quite peculiar, being that she has no mushroom or fungus of discernable origin. She seems to be similar to the Red Shrooms in shape, except yellow in color. They do seem to enjoy foxes, many times finding their way onto their backs"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:brown_mushroom_gal",
+            "text": "These shrooms are more rotund in shape and resemble the Brown Mushrooms. I've also come to notice they're quite fond of pigs, often going out of their way to ride them."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:ink_cap",
+            "text": "These shrooms are the tallest ones by far, though they don't seem to do a whole lot. My shiba, Doge, tried to lick one, but when she booped him on the nose, it took a while of scrubbing to get the ink off."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:infernal_mushroom_gal",
+            "text": "I expected the Nether to be home to these shrooms as well, but was not expecting them to have evolved like this. It makes sense that they'd be stronger than their overworld cousins and would spawn more mushrooms given this dimension's hostile nature, but they also appear to plant both red and brown mushrooms. They're also apparently fire resistant, go figure for a Nether mob!"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:crimson_mushroom_girl_bigspots",
+            "text": "I've come to note a pattern once I met the Red and Brown shrooms that mayhaps the Nether's fungi would have some beans to call their own, and to my surprise there were! It also appears that they along with their Warped counterparts have a rare form, though before I could search for one, a Hoglin thought it best to yeet me off the map. Strange how they don't seem to fear Hoglins given they like to eat Crimson Fungi."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:warped_mushroom_gal",
+            "text": "When I met the Crimson shrooms, I knew that the Warped Fungus would have its own shroom as well. They were the ones that lead me to the hypothesis that the fungus shrooms had a rare variant, but before I could befriend her, I somehow angered an Enderman... I also noted that Hoglins don't fear these girls, despite them for some Notch forsaken reason running far from the regular fungus. On a side note, this is where I had met another companion, Pepe the Warped Toad!"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:molten_mushroom_gal",
+            "text": "When I first came to the Nether, I had spawned in a Basalt Delta, every player's dream spawn I know. I didn't stay around long before finding the Nether Wastes since traversing the deltas is a nightmare and a half, but upon returning, I found Molten shrooms! These chubby shrooms are VERY hot, and I mean that literally, though one should come to expect that if \"molten\" is listed on the tin. They seem to enjoy riding on the top of Striders, since they are the only passive able to tolerate their immense heat right off the bat."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:soul_wanderer_gal",
+            "text": "Even in the lands of souls, shrooms were about! These ones in particular seemed to resinate with the soul energy embedded within the sands and soils they treaded. Upon befriending them, they have an innate ability to one-tap skeletal mobs, making Wither Skeletons not as much of a threat so long as I remember to bring cookies!"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:ender_mushroom_gal",
+            "text": "I was shocked to discover that even in the End, shrooms were abundant, breathing more life into an otherwise barren landscape! Their chests appeared to be quite cold, though I've learned that this is part of how they traverse this land."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "monsters_and_girls:poofed_endershroom",
+            "text": "With great surprise in my eyes, I watched as her stomach began to inflate allowing her to float in the air to bound from one island to the next! Apparently what made their chests so cold was a hydrogen-like substance that, when heated in their guts, turned to gas and granted them freedom from Newton's first! Doge found this quite entertaining as he chased a few down while barking like I hadn't trained him properly..."
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+	"pack_name": "{maid_pack.grand_custom_pack.name}",
+	"model_list": [
+		{
+			"model_id": "grand_custom_pack:kamiya_midori"
+		}
+	],
+	"version": "1.0.0",
+	"author": ["[REDACTED]"],
+	"description": ["{maid_pack.grand_custom_pack.desc}"],
+	"date": "2022-07-26",
+	"icon": "grand_custom_pack:textures/maid_icon.png"
+}
