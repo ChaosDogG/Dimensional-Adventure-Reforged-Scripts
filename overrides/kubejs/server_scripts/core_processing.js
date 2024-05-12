@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
         'obt'
     ],{
         n: 'nether_bricks',
-        a: 'ancient_debris',
+        a: 'netherite_scrap',
         l: 'lava_bucket',
         s: '#soul_fire_base_blocks',
         e: 'ender_pearl',
@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
         h: 'shulker_shell',
         p: 'purpur_block',
         e: 'ender_pearl',
-        y: 'ender_eye',
+        y: 'end_rod',
         E: 'tconstruct:enderman_head',
         r: 'end_crystal',
         f: 'byg:shulkren_fungus'

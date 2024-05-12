@@ -28,6 +28,46 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			id: "097C9D8D0FCF400A"
+			tasks: [{
+				id: "5B5F5AFD7A044434"
+				item: "kubejs:unprocessed_overworld_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "23D3E04EFAB8C5A4"
+			tasks: [{
+				id: "06371FFE250002DF"
+				item: "kubejs:unprocessed_nether_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "48C46D09F8FDAA3C"
+			tasks: [{
+				id: "786FA25EEB521152"
+				item: "kubejs:unprocessed_end_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "4A51953F07A60449"
+			tasks: [{
+				id: "61DFB72B04972006"
+				item: "kubejs:unprocessed_aether_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
 	]
 	title: "Cores"
 }
