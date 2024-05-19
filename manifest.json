@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Dimensional Adventure Reforged",
-  "version": "1.1.7",
+  "version": "1.1.7 (hotfix)",
   "author": "ChaosDog",
   "files": [
     {
@@ -142,11 +142,6 @@
     {
       "projectID": 254268,
       "fileID": 4669791,
-      "required": true
-    },
-    {
-      "projectID": 400933,
-      "fileID": 4841549,
       "required": true
     },
     {
@@ -895,11 +890,6 @@
       "required": true
     },
     {
-      "projectID": 266515,
-      "fileID": 5047821,
-      "required": true
-    },
-    {
       "projectID": 453925,
       "fileID": 5050215,
       "required": true
@@ -912,11 +902,6 @@
     {
       "projectID": 289412,
       "fileID": 5060506,
-      "required": true
-    },
-    {
-      "projectID": 629153,
-      "fileID": 5054877,
       "required": true
     },
     {
@@ -1240,11 +1225,6 @@
       "required": true
     },
     {
-      "projectID": 407206,
-      "fileID": 5186923,
-      "required": true
-    },
-    {
       "projectID": 817709,
       "fileID": 5186085,
       "required": true
@@ -1360,16 +1340,6 @@
       "required": true
     },
     {
-      "projectID": 74924,
-      "fileID": 5245271,
-      "required": true
-    },
-    {
-      "projectID": 74072,
-      "fileID": 5245284,
-      "required": true
-    },
-    {
       "projectID": 892005,
       "fileID": 5250574,
       "required": true
@@ -1465,11 +1435,6 @@
       "required": true
     },
     {
-      "projectID": 688768,
-      "fileID": 5297198,
-      "required": true
-    },
-    {
       "projectID": 618298,
       "fileID": 5296313,
       "required": true
@@ -1515,11 +1480,6 @@
       "required": true
     },
     {
-      "projectID": 867237,
-      "fileID": 5314318,
-      "required": true
-    },
-    {
       "projectID": 844662,
       "fileID": 5304249,
       "required": true
@@ -1542,11 +1502,6 @@
     {
       "projectID": 313970,
       "fileID": 5322410,
-      "required": true
-    },
-    {
-      "projectID": 546670,
-      "fileID": 5314935,
       "required": true
     },
     {
@@ -1585,11 +1540,6 @@
       "required": true
     },
     {
-      "projectID": 602680,
-      "fileID": 5328114,
-      "required": true
-    },
-    {
       "projectID": 688231,
       "fileID": 5331260,
       "required": true
@@ -1605,13 +1555,63 @@
       "required": true
     },
     {
-      "projectID": 864781,
-      "fileID": 5336587,
+      "projectID": 362479,
+      "fileID": 5332800,
       "required": true
     },
     {
-      "projectID": 362479,
-      "fileID": 5332800,
+      "projectID": 407206,
+      "fileID": 5352749,
+      "required": true
+    },
+    {
+      "projectID": 688768,
+      "fileID": 5342348,
+      "required": true
+    },
+    {
+      "projectID": 864781,
+      "fileID": 5343050,
+      "required": true
+    },
+    {
+      "projectID": 546670,
+      "fileID": 5346044,
+      "required": true
+    },
+    {
+      "projectID": 266515,
+      "fileID": 5338563,
+      "required": true
+    },
+    {
+      "projectID": 629153,
+      "fileID": 5341122,
+      "required": true
+    },
+    {
+      "projectID": 400933,
+      "fileID": 5344658,
+      "required": true
+    },
+    {
+      "projectID": 74924,
+      "fileID": 5339977,
+      "required": true
+    },
+    {
+      "projectID": 867237,
+      "fileID": 5353327,
+      "required": true
+    },
+    {
+      "projectID": 74072,
+      "fileID": 5340027,
+      "required": true
+    },
+    {
+      "projectID": 602680,
+      "fileID": 5351439,
       "required": true
     }
   ],

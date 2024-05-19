@@ -54,6 +54,42 @@ ServerEvents.recipes(event => {
         E: 'tconstruct:enderman_head',
         r: 'end_crystal',
         f: 'byg:shulkren_fungus'
+    }
+)
+    event.recipes.extendedcrafting.shaped_table('kubejs:unprocessed_aether_core', [
+        'hzp',
+        'qea',
+        'gdP'
+    ],{
+        h: 'aether:holystone_bricks',
+        z: 'aether:zanite_gemstone',
+        p: 'aether:skyroot_poison_bucket',
+        q: 'aether:quicksoil',
+        e: "ender_pearl",
+        a: 'aether:aechor_petal',
+        g: 'glowstone',
+        d: 'aether:aether_dirt',
+        P: 'aether:pillar'
+    }
+)
+    event.recipes.extendedcrafting.shaped_table('kubejs:unprocessed_twilight_core', [
+        'fcccf',
+        'cnlhc',
+        'cuesc',
+        'cmakc',
+        'fcccf'
+    ],{
+        a: 'twilightforest:alpha_yeti_trophy',
+        c: 'twilightforest:carminite',
+        e: 'ender_pearl',
+        f: 'twilightforest:firefly',
+        h: 'twilight_forest:hydra_trophy',
+        k: 'twilightforest:knight_phantom_trophy',
+        l: 'twilightforest:lich_trophy',
+        m: 'twilightforest:minoshroom_trophy',
+        n: 'twilightforest:naga_trophy',
+        s: 'twilightforest:snow_queen_trophy',
+        u: 'twilightforest:ur_ghast_trophy'
     })
 
     for(const core of core_type) {

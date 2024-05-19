@@ -83,6 +83,8 @@ StartupEvents.registry('item', event => {
     rc("Chulak", 0x3d3d3d, 0x545454)
     uc("Lantea", 0x3d3d3d, 0x0b4ce3)
     rc("Lantea", 0x3d3d3d, 0x0b4ce3)
+    uc("Feywild", 0x00ad1d, 0xff82d1)
+    rc("Feywild", 0x00ad1d, 0xff82d1)
 
     //Mod
 })
