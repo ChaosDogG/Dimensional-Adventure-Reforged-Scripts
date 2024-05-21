@@ -1,4 +1,141 @@
 {
-  "Traders": [],
+  "Traders": [
+    {
+      "Type": "lightmanscurrency:item_trader",
+      "ID": "Twilight Boss Spawners",
+      "Name": "Trader",
+      "OwnerName": "Minecraft",
+      "Trades": [
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "industrialforegoing:mob_imprisonment_tool",
+            "Count": 1,
+            "Tag": "{entity:\"twilightforest:hydra\"}"
+          },
+          "BarterItem": {
+            "ID": "twilightforest:hydra_trophy",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coin_emerald",
+            "Count": 32
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "industrialforegoing:mob_imprisonment_tool",
+            "Count": 1,
+            "Tag": "{entity:\"twilightforest:minoshroom\"}"
+          },
+          "BarterItem": {
+            "ID": "twilightforest:minoshroom_trophy",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coin_gold",
+            "Count": 8
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "industrialforegoing:mob_imprisonment_tool",
+            "Count": 1,
+            "Tag": "{entity:\"twilightforest:naga\"}"
+          },
+          "BarterItem": {
+            "ID": "twilightforest:naga_trophy",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coin_iron",
+            "Count": 16
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "industrialforegoing:mob_imprisonment_tool",
+            "Count": 1,
+            "Tag": "{entity:\"twilightforest:ur_ghast\"}"
+          },
+          "BarterItem": {
+            "ID": "twilightforest:ur_ghast_trophy",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coin_emerald",
+            "Count": 8
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "industrialforegoing:mob_imprisonment_tool",
+            "Count": 1,
+            "Tag": "{entity:\"twilightforest:snow_queen\"}"
+          },
+          "BarterItem": {
+            "ID": "twilightforest:snow_queen_trophy",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coin_diamond",
+            "Count": 64
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "industrialforegoing:mob_imprisonment_tool",
+            "Count": 1,
+            "Tag": "{entity:\"twilightforest:alpha_yeti\"}"
+          },
+          "BarterItem": {
+            "ID": "twilightforest:alpha_yeti_trophy",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coin_gold",
+            "Count": 32
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "industrialforegoing:mob_imprisonment_tool",
+            "Count": 1,
+            "Tag": "{entity:\"twilightforest:lich\"}"
+          },
+          "BarterItem": {
+            "ID": "twilightforest:lich_trophy",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coin_iron",
+            "Count": 16
+          }
+        },
+        {
+          "TradeType": "BARTER",
+          "SellItem": {
+            "ID": "industrialforegoing:mob_imprisonment_tool",
+            "Count": 1,
+            "Tag": "{entity:\"twilightforest:knight_phantom\"}"
+          },
+          "BarterItem": {
+            "ID": "twilightforest:knight_phantom_trophy",
+            "Count": 1
+          },
+          "BarterItem2": {
+            "ID": "lightmanscurrency:coin_emerald",
+            "Count": 16
+          }
+        }
+      ]
+    }
+  ],
   "Auctions": []
 }

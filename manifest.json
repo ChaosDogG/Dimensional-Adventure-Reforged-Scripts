@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Dimensional Adventure Reforged",
-  "version": "1.1.7 (hotfix)",
+  "version": "1.1.7 (hotfix 2)",
   "author": "ChaosDog",
   "files": [
     {
@@ -990,11 +990,6 @@
       "required": true
     },
     {
-      "projectID": 298187,
-      "fileID": 4413103,
-      "required": true
-    },
-    {
       "projectID": 441647,
       "fileID": 4762544,
       "required": true
@@ -1170,11 +1165,6 @@
       "required": true
     },
     {
-      "projectID": 287342,
-      "fileID": 5151215,
-      "required": true
-    },
-    {
       "projectID": 361579,
       "fileID": 4505309,
       "required": true
@@ -1347,11 +1337,6 @@
     {
       "projectID": 918638,
       "fileID": 5257390,
-      "required": true
-    },
-    {
-      "projectID": 376876,
-      "fileID": 5253528,
       "required": true
     },
     {
@@ -1545,11 +1530,6 @@
       "required": true
     },
     {
-      "projectID": 416089,
-      "fileID": 5329133,
-      "required": true
-    },
-    {
       "projectID": 689083,
       "fileID": 5330846,
       "required": true
@@ -1557,11 +1537,6 @@
     {
       "projectID": 362479,
       "fileID": 5332800,
-      "required": true
-    },
-    {
-      "projectID": 407206,
-      "fileID": 5352749,
       "required": true
     },
     {
@@ -1600,18 +1575,38 @@
       "required": true
     },
     {
-      "projectID": 867237,
-      "fileID": 5353327,
+      "projectID": 298187,
+      "fileID": 5358157,
+      "required": true
+    },
+    {
+      "projectID": 407206,
+      "fileID": 5355334,
+      "required": true
+    },
+    {
+      "projectID": 416089,
+      "fileID": 5358779,
       "required": true
     },
     {
       "projectID": 74072,
-      "fileID": 5340027,
+      "fileID": 5358052,
+      "required": true
+    },
+    {
+      "projectID": 287342,
+      "fileID": 5356458,
+      "required": true
+    },
+    {
+      "projectID": 867237,
+      "fileID": 5360422,
       "required": true
     },
     {
       "projectID": 602680,
-      "fileID": 5351439,
+      "fileID": 5359850,
       "required": true
     }
   ],

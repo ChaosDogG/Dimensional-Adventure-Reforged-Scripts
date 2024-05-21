@@ -146,12 +146,6 @@
 			willow = true
 			yellow_bioshroom = true
 
-		[types.wood_type.create_dd]
-			rose = true
-			smoked = true
-			spirit = true
-			rubber = true
-
 		[types.wood_type.endergetic]
 			poise = true
 
@@ -160,6 +154,14 @@
 			skyroot = true
 			bloodshroom = true
 			enderbark = true
+
+		[types.wood_type.feywild]
+			spring_tree = true
+			summer_tree = true
+			autumn_tree = true
+			winter_tree = true
+			blossom_tree = true
+			hexen_tree = true
 
 	[types.leaves_type]
 
@@ -284,9 +286,6 @@
 			glacia = true
 			gilded_oak = true
 			blighted_skyroot = true
-			prismatic_fieldsproot = true
-			spectral_fieldsproot = true
-			azure_fieldsproot = true
 			purple_glacia = true
 
 		[types.leaves_type.undergarden]
@@ -369,13 +368,28 @@
 			willow = true
 			ashen = true
 
-		[types.leaves_type.create_dd]
-			rubber = true
-
 		[types.leaves_type.tconstruct]
 			earth_slime = true
 			sky_slime = true
 			ender_slime = true
+
+		[types.leaves_type.feywild]
+			autumn_brown = true
+			autumn_dark_gray = true
+			autumn_light_gray = true
+			autumn_red = true
+			blossom_pink = true
+			blossom_magenta = true
+			blossom_white = true
+			hex_black = true
+			hex_purple = true
+			spring_green = true
+			spring_lime = true
+			spring_cyan = true
+			summer_orange = true
+			summer_yellow = true
+			winter_blue = true
+			winter_light_blue = true
 
 [entries]
 
